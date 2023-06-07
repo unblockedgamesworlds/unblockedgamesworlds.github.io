@@ -1,0 +1,18 @@
+{
+    "companyName": "Dedalord SRL",
+    "productName": "Skiing Fred",
+    "productVersion": "1.1.0",
+    "dataUrl": "skiingfred-webgl-110_40.data.unityweb",
+    "wasmCodeUrl": "skiingfred-webgl-110_40.wasm.code.unityweb",
+    "wasmFrameworkUrl": "skiingfred-webgl-110_40.wasm.framework.unityweb",
+    "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+    "webglContextAttributes": {"preserveDrawingBuffer": false},
+    "splashScreenStyle": "Dark",
+    "backgroundColor": "#231F20",
+    "developmentBuild": false,
+    "multithreading": false,
+    "unityVersion": "2019.1.8f1",
+    "totalFile": 2,
+    "size": 43223611,
+    "split_size": 21611806
+    }
