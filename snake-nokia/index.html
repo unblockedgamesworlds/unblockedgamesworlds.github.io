@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>snake</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" onload="showscore(), showhigh(), handle(), showspeed()" class="body">
+  <div style="flex-grow: 1; height: 100vh;"></div>
+  <div id="container" class="container">
+    <div id="fixedborder">
+      <div id="scoreborder">
+        <div id="gameborder">
+          <canvas id="game" height="400" width="650"></canvas>
+          <div id="homescreen">
+            <h1 id="logo">Snake</h1>
+            <h2 id="btn">Start</h2>
+          </div>
+          <div id="gameover">
+            <h1 id="gameovertxt"></h1>
+          </div>
+        </div>
+        <p id="p" style="float: left;">
+          <span id="score"></span>
+        </p>
+        <p id="p" style="float: right;">
+          Best: <span id="highscore"></span>
+        </p>
+      </div>
+      <div id="settingsborder">
+        <div id="settings">
+          <p id="p" style="text-align: center; margin-bottom: 20px;">settings</p>
+          <p id="p"style="margin-bottom: 20px" margin-bottom: 20px;">speed: <span id="speed"></span></p>
+          <p id="p">Change speed with up/down buttons.</p>
+        </div>
+      </div>
+    </div>
+    <div id="btncontainer">
+      <div id="topbtns">
+        <div id="settingsbtncover">
+          <div id="settingsbtn" onpointerdown="settingsbtn()"></div>
+          <div id="settingsbtnclose" onpointerdown="settingsbtnclose()"></div>
+        </div>
+        <div id="enterbtncover">
+          <div id="enterbtn" onpointerdown="enterbtn()"></div>
+        </div>
+        <div id="updownbtncover">
+          <div id="upbtn" onpointerdown="speedup()"></div>
+          <div id="downbtn" onpointerdown="speeddown()"></div>
+        </div>
+      </div>
+        <div id="movetoprow">
+          <div id="movebtn" onpointerdown="moveup()"></div>
+          <div id="movebtn" onpointerdown="moveupleft()" style="margin: 0; float: left"></div>
+          <div id="movebtn" onpointerdown="moveupright()" style="margin: 0; float: right"></div>
+        </div>
+        <div id="movemiddlerow">
+          <div id="movebtn" onpointerdown="moveleft()" style="margin: 0; float: left"></div>
+          <div id="movebtn" onpointerdown="moveright()" style="margin: 0; float: right"></div>
+        </div>
+        <div id="movebottomrow">
+          <div id="movebtn" onpointerdown="movedown()"></div>
+          <div id="movebtn" onpointerdown="movedownleft()" style="margin: 0; float: left"></div>
+          <div id="movebtn" onpointerdown="movedownright()" style="margin: 0; float: right"></div>
+        </div>
+    </div>
+  </div>
+  <div style="flex-grow: 1; height: 100vh;"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>

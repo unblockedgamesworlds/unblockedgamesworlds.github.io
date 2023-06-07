@@ -1,0 +1,203 @@
+@font-face {
+ font-family: font;
+ src: url(nokia-sans-small.ttf);
+}
+
+@font-face {
+ font-family: fontsmall;
+ src: url(3x5-font.ttf);
+}
+
+body {
+ margin: 0;
+ background-color: #222;
+ display: flex;
+ align-items: center;
+ height: 100vh;
+ width: 100%;
+}
+
+#settingsborder {
+ display: none;
+ transform: scale(.266);
+}
+
+#settings {
+ height: 522px;
+ width: 730px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+
+#container {
+ user-select: none;
+ margin: 0;
+ background-image: url("image.png");
+ background-size: contain;
+ height: 590px;
+ width: 280px;
+ background-repeat: no-repeat;
+ background-position: center 0;
+ position: relative;
+ overflow: hidden;
+}
+
+#fixedborder {
+ width: calc(772px * .266);
+ height: calc(524px * .266);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto;
+ margin-top: 94px;
+ background-color: rgb(183, 195, 8);
+}
+
+#game {
+ display: none;
+ cursor: none;
+ transition: .2s;
+}
+
+#gameborder {
+ border: 7px solid #333;
+ padding: 7px;
+ height: 400px;
+ width: 650px;
+}
+
+#scoreborder {
+ padding: 47px;
+ padding-bottom: 0;
+ display: block;
+ transform: scale(.266);
+}
+
+#btn {
+ text-align: center;
+ padding: 8px;
+ padding-top: 0;
+ padding-bottom: 0px;
+ width: fit-content;
+ margin: 0 auto;
+ margin-top: 20px;
+ background-color: #333;
+ color: rgb(183, 195, 8);
+ font-weight: 100;
+ font-family: fontsmall;
+ font-size: 2.7rem;
+}
+
+#logo {
+ font-size: 6.5rem;
+ text-align: center;
+ padding: 10px;
+ width: fit-content;
+ margin: 0 auto;
+ font-weight: 100;
+ color: #333;
+ font-family: font;
+}
+
+#gameovertxt {
+ font-size: 5.5rem;
+ text-align: center;
+ padding: 10px;
+ width: fit-content;
+ margin: 0 auto;
+ font-weight: 100;
+ color: #333;
+ font-family: font;
+ padding-top: 130px;
+}
+
+#gameover {
+ display: none;
+ text-align: center;
+ height: 100%;
+}
+
+#homescreen {
+ height: calc(100% - 50px);
+ width: 100%;
+ padding-top: 50px;
+}
+
+#btncontainer {
+ width: 235px;
+ height: 270px;
+ margin: 0 auto;
+ margin-top: 30px;
+}
+
+#topbtns {
+ width: 100%;
+ height: 105px;
+}
+
+#settingsbtncover {
+ height: 100%;
+ width: 70px;
+ display: inline-block;
+}
+
+#enterbtncover {
+ height: 100%;
+ width: 85px;
+ display: inline-block;
+}
+
+#updownbtncover {
+ height: 100%;
+ width: 70px;
+ display: inline-block;
+}
+
+#settingsbtn {
+ height: 50px;
+}
+
+#settingsbtnclose {
+ height: 50px;
+}
+
+#enterbtn {
+ height: 60px;
+}
+
+#upbtn {
+ height: 52.5px;
+}
+
+#downbtn {
+ height: 52.5px;
+}
+
+#p {
+ font-family: fontsmall;
+ font-weight: 100;
+ margin: 0;
+ font-size: 2.7rem;
+ color: #333;
+ margin-right: -7px;
+}
+
+#movetoprow {
+ height: 55px;
+ margin-top: 3px;
+}
+
+#movemiddlerow {
+ height: 55px;
+}
+
+#movebottomrow {
+ height: 55px;
+}
+
+#movebtn {
+ height: 100%;
+ width: 33.33%;
+ display: inline-block;
+}
