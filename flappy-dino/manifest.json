@@ -1,0 +1,39 @@
+{
+ 
+    "manifest_version": 3,
+    "name": "Flappy Dino",
+    "version": "1.0.1",
+    "action": {
+        "default_icon": {
+           "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+        },
+        "default_title": "Flappy Dino",
+        "default_popup":"flappy-dino.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "offline_enabled": true,
+
+    "description": "Do you want a different kind of Flappy game? Look no further than Flappy Dino premium version.",
+    "icons": {
+       "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    },
+    "options_page": "index.html",
+
+    "homepage_url": "https://ubg365.org/"
+
+}
