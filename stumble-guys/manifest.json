@@ -1,0 +1,49 @@
+{
+    
+    "description": "Play Stumble Guys Offline right on Chrome browser, no ads! ",
+    "version": "1.0.1",
+     "offline_enabled": true,
+    "name": "__MSG_name__",
+ 
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "alarms",
+        "storage"
+    ],
+ 
+    "content_security_policy": {
+"extension_pages": "script-src 'self' 'wasm-unsafe-eval' ; object-src 'self'; child-src 'self'; worker-src 'self'",
+        "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; object-src 'self' 'unsafe-eval' blob: 'unsafe-inline';child-src 'self' 'unsafe-eval' blob: 'unsafe-inline' ; worker-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; script-src-elem 'self' 'unsafe-eval' blob: 'unsafe-inline'"
+    },
+    "action": {
+        "default_title": "Stumble Guys Offline",
+       "default_icon": {
+           "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+        },
+        "default_popup":"load.html"
+    },
+    "icons": {
+       "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    },
+ 
+    "manifest_version": 3,
+    "sandbox": {
+        "pages": [
+            "guys.html"
+        ]
+    }
+}
