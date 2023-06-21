@@ -1,0 +1,11 @@
+@font-face {
+    font-family:"DS Marker Felt";
+    src: url('../fonts/ds-marker-felt/DSMarkerFelt.eot');
+    src: url('../fonts/ds-marker-felt/DSMarkerFelt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ds-marker-felt/DSMarkerFelt.woff2') format('woff2'),
+    url('../fonts/ds-marker-felt/DSMarkerFelt.woff') format('woff'),
+    url('../fonts/ds-marker-felt/DSMarkerFelt.ttf') format('truetype'),
+    url('../fonts/ds-marker-felt/DSMarkerFelt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

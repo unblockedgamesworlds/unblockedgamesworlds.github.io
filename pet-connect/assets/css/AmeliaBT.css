@@ -1,0 +1,11 @@
+@font-face {
+    font-family:"Amelia BT";
+    src: url('../fonts/AmeliaBT/AmeliaBTRegular.eot');
+    src: url('../fonts/AmeliaBT/AmeliaBTRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AmeliaBT/AmeliaBTRegular.woff2') format('woff2'),
+    url('../fonts/AmeliaBT/AmeliaBTRegular.woff') format('woff'),
+    url('../fonts/AmeliaBT/AmeliaBTRegular.ttf') format('truetype'),
+    url('../fonts/AmeliaBT/AmeliaBTRegular.svg#amelia_btregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
