@@ -1,0 +1,36 @@
+{
+
+
+  "manifest_version": 3,
+  "name": "Dreadhead Parkour for Chrome™",
+  "version": "1.0.1",
+  "description": "Play Dreadhead Parkour right on Chrome™ Browser! ",
+  "homepage_url": "https://ubg365.org",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://localhost:* ",
+                      "http://127.0.0.1:*"],
+  "action": {
+    "default_title": "Dreadhead Parkour",
+    "default_icon": {
+     "512": "icons/icons-512.png",
+         "256": "icons/icons-256.png",
+         "128": "icons/icons-128.png",
+         "64": "icons/icons-64.png",
+         "48": "icons/icons-48.png",
+         "32": "icons/icons-32.png" 
+    }, "default_popup":"index.html"
+  },"content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'; child-src 'self'; unsafe-eval 'self' 'unsafe-eval' http://localhost:* ; object-src 'self'; script-src-elem 'self' 'unsafe-eval' http://127.0.0.1:*"
+    },
+ 
+  "icons": {
+    "512": "icons/icons-512.png",
+         "256": "icons/icons-256.png",
+         "128": "icons/icons-128.png",
+         "64": "icons/icons-64.png",
+         "48": "icons/icons-48.png",
+         "32": "icons/icons-32.png" 
+  }
+}
