@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>Play Google Snake</title>
+    <meta name="description" content="Play the classic snake game on Google. Eat the apples and grow your snake as long as possible." />
+    <meta name="keywords" content="Play Google Snake Online" />
+    <meta name="author" content="w3technic" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:site_name" content="Google Snake" />
+    <meta property="og:title" content="Play Google Snake Online" />
+    <meta property="og:description" content="Play the classic snake game on Google. Eat the apples and grow your snake as long as possible." />
+
+    <meta name="twitter:image:alt" content="Play Google Snake Online" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="7 days" />
+
+
+
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4938767041116941" crossorigin="anonymous"></script>
+    <script nonce="MbQrqGoifFdVWeMKcb2vew==" src="load.js">
+    </script>
+    <style>
+        body {
+            margin: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #161616;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+
+        body>div {
+            height: 100%
+        }
+
+        html {
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            height: 100%
+        }
+
+        trivia-game {
+            display: block;
+            height: 100%
+        }
+
+        .fp-f {
+            bottom: 0;
+            height: auto;
+            left: 0;
+            position: fixed !important;
+            right: 0;
+            top: 0;
+            width: auto;
+            z-index: 127
+        }
+
+        .fp-h:not(.fp-nh):not(.goog-modalpopup-bg):not(.goog-modalpopup) {
+            display: none !important
+        }
+
+        .fp-zh.fp-h:not(.fp-nh):not(.goog-modalpopup-bg):not(.goog-modalpopup) {
+            display: block !important;
+            height: 0;
+            overflow: hidden;
+            transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0)
+        }
+
+        .fp-i .fp-c {
+            display: block;
+            min-height: 100vh
+        }
+
+        li.fp-c {
+            list-style: none
+        }
+
+        .fp-w {
+            box-sizing: border-box;
+            left: 0;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1217px;
+            right: 0
+        }
+
+        #menu1 li a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <style>
+        @media only screen and (max-width:285px),
+        only screen and (orientation:landscape) and (max-height:285px) {}
+
+        @media only screen and (max-width:315px),
+        only screen and (orientation:landscape) and (max-height:315px) {}
+
+        @media only screen and (max-width:215px),
+        only screen and (orientation:landscape) and (max-height:215px) {}
+    </style>
+    <link href="fonts/css.css" rel="stylesheet" type="text/css" nonce="MbQrqGoifFdVWeMKcb2vew==">
+    <div class="EjCLSb yZz3de r-iIT029GlNi00" jscontroller="" jsl="$t t-0ZvUBxKupfQ;$x 0;" data-ved="0ahUKEwit-5upv8LnAhUMuRoKHRY6BR8QtOUBCAE">
+        <style>
+            .EjCLSb {
+                width: 600px;
+                height: 600px
+            }
+
+            #Q3CKle {
+                position: relative;
+                width: 100%;
+                height: 70px;
+                background-color: #4a752c;
+                user-select: none;
+                border-radius: 15px 15px 0 0 !important;
+            }
+
+            .wSwbef {
+                overflow: hidden
+            }
+
+            .TO4uAe {
+                position: relative;
+                top: 16px;
+                height: 38px;
+                width: 38px;
+                display: inline-block
+            }
+
+            .UJhXPd {
+                height: 60px;
+                width: 60px;
+                margin-bottom: 3px
+            }
+
+            .XUtzXd {
+                height: 100%;
+                position: relative;
+                top: 0;
+                left: 0;
+                user-drag: none;
+                user-select: none
+            }
+
+            .MR2r3b {
+                position: absolute;
+                top: 21px;
+                visibility: hidden
+            }
+
+            .ZEpI5d {
+                position: absolute;
+                top: 20px
+            }
+
+            .mL9Mvb {
+                position: absolute;
+                top: 23px
+            }
+
+            .jNB0Ic {
+                width: 100%;
+                height: calc(100% - 70px)
+            }
+
+            .cer0Bd {
+                width: 100%;
+                height: 100%;
+                border-radius: 0 0 15px 15px !important;
+            }
+
+            .dyP0v {
+                font-family: Roboto, Arial, sans-serif;
+                color: white;
+                font-size: 20px;
+                width: 60px;
+                height: 35px;
+                position: relative;
+                padding-left: 5px;
+                top: 8px;
+                display: inline-block
+            }
+
+            #EfeGfb {
+                position: absolute;
+                left: 20px;
+                height: 70px
+            }
+
+            #RprIte {
+                position: absolute;
+                right: 20px;
+                height: 70px
+            }
+
+            #TqOHCc {
+                width: 28px;
+                right: 80px;
+                z-index: 1000;
+                cursor: pointer
+            }
+
+            #yhjoFc {
+                width: 30px;
+                right: 40px;
+                z-index: 1001;
+                cursor: pointer
+            }
+
+            #Xc2gWd {
+                width: 25px;
+                right: 8px;
+                z-index: 1002;
+                cursor: pointer
+            }
+
+            .yZz3de #yhjoFc {
+                right: 8px
+            }
+
+            .yZz3de #TqOHCc {
+                right: 46px
+            }
+
+            #fj6BWc {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #578a34;
+                z-index: 1003
+            }
+
+            #Z3vFrd {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgb(0, 0, 0);
+                background-color: rgba(0, 0, 0, 0.7);
+                transition: opacity 0.3s
+            }
+
+            #wkV5ib {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%)
+            }
+
+            .T7SB3d {
+                position: relative;
+                background: #4ac0fd;
+                width: 300px;
+                height: 300px;
+                margin: auto;
+                border-radius: 8px;
+                text-align: center;
+                background-size: contain;
+                user-select: none
+            }
+
+            .jfYnYe {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 8px
+            }
+
+            .bF4Gmf {
+                display: inline-block;
+                margin: 32px;
+                text-align: center
+            }
+
+            .dxb8tb {
+                font: 400 28px Roboto, Arial, sans-serif;
+                color: white
+            }
+
+            .wUt0xf {
+                width: 300px;
+                margin: auto;
+                display: flex
+            }
+
+            .FL0z2d {
+                background: #15c;
+                height: 64px;
+                border-radius: 8px;
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                text-align: center;
+                user-select: none;
+                cursor: pointer;
+                display: inline-block
+            }
+
+            .Uxkl7b {
+                margin: 12px 0 0 6px;
+                flex-grow: 1
+            }
+
+            .Uxkl7b img {
+                vertical-align: middle;
+                margin: 0 6px 2px -5px;
+                width: 30px;
+                height: 30px
+            }
+
+            .Uxkl7b h2 {
+                font: 400 20px Roboto, Arial, sans-serif;
+                color: white;
+                padding: 0;
+                margin: 0;
+                margin-top: 20px;
+                display: inline-block
+            }
+
+            .SesFYc {
+                width: 64px;
+                margin: 12px 6px 0 0
+            }
+
+            .SesFYc img {
+                vertical-align: middle;
+                margin: 15px auto;
+                width: 35px;
+                height: 35px
+            }
+
+            #pPeeKb {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                transition: opacity 200ms
+            }
+
+            #mbPNob {
+                width: 120px;
+                height: 120px;
+                background-image: url(keys.svg);
+                background-size: 100px auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: rgb(0, 0, 0);
+                background-color: rgba(0, 0, 0, 0.6);
+                border-radius: 16px;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                display: block;
+                margin: auto;
+                user-select: none
+            }
+
+            .ad {
+                outline: 1px solid #333;
+                background-color: #333;
+                overflow: hidden;
+            }
+
+            .adsbygoogle {
+                display: inline-block;
+            }
+
+            .ad.skyscraper1,
+            .ad.skyscraper2,
+            .ad.skyscraper1 .adsbygoogle,
+            .ad.skyscraper2 .adsbygoogle {
+                width: 300px;
+            }
+
+            .ad.skyscraper1 {
+                position: absolute;
+                top: 50%;
+                margin-top: -300px;
+                left: 0;
+            }
+
+            .ad.skyscraper2 {
+                position: absolute;
+                top: 50%;
+                margin-top: -300px;
+                right: 0;
+            }
+
+            .ad.mobile,
+            .ad.mobile .adsbygoogle {
+                display: block;
+                width: 100%;
+                height: 50px;
+            }
+
+            .ad.mobile {
+                position: absolute;
+                bottom: 0;
+                bottom: env(safe-area-inset-bottom);
+                width: 100%;
+                margin: 0;
+                overflow: hidden;
+            }
+
+            .ad.mobile .adsbygoogle {
+                margin: 0 auto;
+            }
+
+            @media (min-width: 1261px) {
+                .ad.skyscraper1 {
+                    margin-left: 71px;
+                }
+                .ad.skyscraper2 {
+                    margin-right: 71px;
+                }
+            }
+
+            @media (max-width: 1600px) {
+                .ad.skyscraper1,
+                .ad.skyscraper2,
+                .ad.skyscraper1 .adsbygoogle,
+                .ad.skyscraper2 .adsbygoogle {
+                    width: 160px;
+                }
+            }
+
+            @media (max-width: 815px) and (min-height: 661px) {
+                .ad.skyscraper2,
+                .ad.skyscraper1 {
+                    display: none;
+                }
+            }
+
+            @media (max-height: 800px) {
+                .ad.skyscraper1,
+                .ad.skyscraper2 {
+                    margin-top: -290px;
+                }
+            }
+
+            @media (max-height: 660px) {
+                .ad.skyscraper1,
+                .ad.skyscraper2 {
+                    margin-top: -280px;
+                }
+            }
+
+            @media (max-width: 540px) {
+                .ad.skyscraper1,
+                .ad.skyscraper2 {
+                    display: none;
+                }
+                .neave,
+                .mute {
+                    display: block;
+                }
+            }
+
+            @media (max-height: 520px) {
+                .ad.mobile,
+                .ad.skyscraper1,
+                .ad.skyscraper2 {
+                    display: none;
+                }
+                .neave,
+                .mute {
+                    display: block;
+                }
+                .mobile .game,
+                .game {
+                    top: 60px;
+                    margin-top: 0;
+                }
+                .mobile .scores,
+                .scores {
+                    top: 380px;
+                    margin-top: 0;
+                    padding-bottom: 0;
+                }
+            }
+
+            @media (max-width: 350px) {
+                .scores .swap {
+                    display: none;
+                }
+            }
+
+            @media (min-width: 421px) and (max-height: 450px) {
+                .mobile .game,
+                .game {
+                    top: 10px;
+                }
+                .mobile .scores,
+                .scores {
+                    top: 320px;
+                }
+            }
+
+            #full-screen-game-div-button nav {
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            @media (max-width: 1060px) {
+                .ad.skyscraper1,
+                .ad.skyscraper2 {
+                    display: none !important;
+                }
+            }
+        </style>
+        <style>
+            html:not(.zAoYTe) .hide-focus-ring {
+                outline: 0
+            }
+        </style>
+         <a href="index.html" class="play-button"   style="  
+                position: absolute;
+                bottom: 0;
+                right: 20px;
+                margin-bottom: 9px;
+                border: 5px solid #f1bb4c;
+                border-radius: 51px;
+                padding: 9px 50px;
+                font-size: 19px;
+                color: #000;
+                background-color: #ffde01;
+                font-weight: 500">Back
+            </a>
+        <div jsname="P0FCKc" id="Q3CKle" class="iIT029GlNi00-9Xq1fte90IQ">
+            <div id="EfeGfb">
+                <div class="TO4uAe wSwbef"><img class="XUtzXd iIT029GlNi00-q5ufrUb0rxo" src="apple_types.png" jsname="lh7ff" alt=""></div>
+                <div class="dyP0v iIT029GlNi00-J8c2I1boFu0" jsname="A0kWCf" id="GdeGKe">0</div>
+                <div class="TO4uAe wSwbef"><img class="XUtzXd iIT029GlNi00-loelSMH6pko" src="trophy_types.png" jsname="UEI8qf" alt=""></div>
+                <div class="dyP0v iIT029GlNi00-7nurwbos37w" jsname="E5ziSe" id="aNT4hf">0</div>
+            </div>
+            <div id="RprIte"><img class="MR2r3b iIT029GlNi00-6R4AmD5UGL0" src="not_interested_white_24dp.png" jsname="p57eQc" alt="End game" id="TqOHCc" jsaction="r.hbc3FNsMMdg" data-rtid="iIT029GlNi00" jsl="$x 1;"><img class="ZEpI5d iIT029GlNi00-R44MBeTIbJg" src="volume_up_white_24dp.png"
+                    jsname="N7ntOd" alt="Mute" id="yhjoFc" jsaction="r.o-p5trNwwLE" data-rtid="iIT029GlNi00" jsl="$x 2;"></div>
+        </div>
+        <div class="jNB0Ic iIT029GlNi00-0rQhgMpCKVg" jsname="JI3Aqc"><canvas class="cer0Bd iIT029GlNi00-QvWXnsGipoA" jsname="UzWXSb"></canvas></div>
+        <div style="opacity:0;visibility:hidden" jsname="Yfvsbd" id="Z3vFrd" class="iIT029GlNi00-Ms1Vcbzhn30" data-ved="0ahUKEwit-5upv8LnAhUMuRoKHRY6BR8QpcwCCAI">
+            <div id="wkV5ib">
+                <div class="hide-focus-ring T7SB3d iIT029GlNi00-cxWq4UlEY-w" jsname="Rs1rF" id="NLEtbb" role="button" tabindex="0" jsaction="r.sHPDQJqnwV8" data-rtid="iIT029GlNi00" jsl="$x 4;"><canvas class="jfYnYe iIT029GlNi00-fP9vg3SWOJI" jsname="kAVrAc"></canvas>
+                    <div class="hide-focus-ring bF4Gmf" role="button" tabindex="0" jsaction="r.TD2p1_3-DII" data-rtid="iIT029GlNi00" jsl="$x 5;">
+                        <div class="UJhXPd wSwbef"><img class="XUtzXd iIT029GlNi00-Jc_LQhV4LUk" src="apple_types.png" jsname="h6Ousc" alt=""></div>
+                        <div class="dxb8tb iIT029GlNi00-_sr9b_2nffI" jsname="LOtDEe" id="dxb8tb">0</div>
+                    </div>
+                    <div class="hide-focus-ring bF4Gmf" role="button" tabindex="0" jsaction="r.RmZ_CtXtnBA" data-rtid="iIT029GlNi00" jsl="$x 6;">
+                        <div class="UJhXPd wSwbef"><img class="XUtzXd iIT029GlNi00-J8pweCeLDq4" src="trophy_types.png" jsname="LpoWPe" alt=""></div>
+                        <div class="dxb8tb iIT029GlNi00-bnFUm9ATFvc" jsname="Vp6PHf" id="tVkfse">0</div>
+                    </div>
+                </div>
+                <div class="wUt0xf">
+                    <div class="FL0z2d SesFYc iIT029GlNi00-Fsenb6SWLfA" jsname="qycu7d" jsaction="r.1skNaPYd1Uk" data-rtid="iIT029GlNi00" jsl="$x 7;" data-ved="0ahUKEwit-5upv8LnAhUMuRoKHRY6BR8Q7r0FCAM"><img src="shuffle_white_24dp.png" alt="Shuffle"></div>
+                    <div class="FL0z2d Uxkl7b iIT029GlNi00-IlV_-wJg2k0" jsname="NSjDf" jsaction="r.FJSS3DVgE68" data-rtid="iIT029GlNi00" jsl="$x 8;" data-ved="0ahUKEwit-5upv8LnAhUMuRoKHRY6BR8Qo8wCCAQ"><img src="refresh_white_24dp.png" alt="Play again">
+                        <h2>Play again</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div jsname="IoE5Ec" id="pPeeKb" class="iIT029GlNi00-L50QgkC_Vkw">
+            <div id="mbPNob"></div>
+        </div>
+        <div jsname="y7GBZ" id="fj6BWc" class="iIT029GlNi00-QrMey-L_Hvc"></div>
+    </div>
+    <script nonce="MbQrqGoifFdVWeMKcb2vew==" src="load2.js">
+    </script>
+
+
+
+
+    <script src="js/snakedesktop.js"></script>
+    <script defer src="js/lazyload.min.js"></script>
+    <!-- <script type="text/javascript" src="js/addthis_widget.js#pubid=ra-6271f5abca80cec0"></script> -->
+
+</body>
+
+</html>
