@@ -1,0 +1,28 @@
+{
+ "manifest_version": 3,
+ "name":  "247 Solitaire",
+ "description":  "Are you looking for a fun and challenging game to play during your downtime? Look no further than 247 Solitaire!",
+ "version":  "1.2.1",
+ "homepage_url": "https://monkeymart.org/247-solitaire/",
+
+ "offline_enabled": true,  
+
+ "icons": {
+  "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+},
+    "action" : {
+         "default_icon" :  "icons/icon-128.png",
+         "default_title" : "Click Here to open Solitaire",
+         "default_popup":  "popup.html"
+    },
+
+     "background": {
+         "service_worker": "js/bg.js"
+    }
+}

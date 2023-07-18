@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Play Googles Solitaire classic card game. Try to solve the puzzles by yourself or with a friend. Play easy mode or hard mode. Can be played on any device." />
+  <meta name="keywords" content="Play Google Solitaire Online" />
+  <meta name="author" content="drunk-game" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://drunk-game.com" />
+  <meta property="og:site_name" content="Google Solitaire" />
+  <meta property="og:title" content="Play Google Solitaire Online" />
+  <meta property="og:description" content="Play Googles Solitaire classic card game. Try to solve the puzzles by yourself or with a friend. Play easy mode or hard mode. Can be played on any device. " />
+  <meta name="twitter:image:alt" content="Play Google Solitaire Online" />
+  <meta name="twitter:card" content="summary_large_image" />
+<title>Google Solitaire</title><meta name="robots" content="noindex">
+<script type="text/javascript" src="js/solitaire_compiled.2.js" nonce="HbODf6ba64DGiteQHBVqlw"></script>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="favicon.ico" />
+<link href="fonts/icon.css" rel="stylesheet" nonce="HbODf6ba64DGiteQHBVqlw">
+<link rel="stylesheet" type="text/css" href="css/default.css" nonce="HbODf6ba64DGiteQHBVqlw">
+<link rel="stylesheet" type="text/css" href="css/mobile_portrait.css" media="only screen and (orientation: portrait)" nonce="HbODf6ba64DGiteQHBVqlw">
+<link rel="stylesheet" type="text/css" href="css/ipad.css" media="only screen and (min-width : 768px) and (max-width : 1024px)" nonce="HbODf6ba64DGiteQHBVqlw">
+</head>
+<body>
+
+<script src="load.js"></script>
+<div id="solitaire-waiting-hint">
+<svg class="spinner" width="64px" height="64px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+<circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+</svg>
+</div>
+<div id="solitaire">
+
+<div id="solitaire-topbar" class="border-box">
+<div class="flex-div">
+<div id="solitaire-mode"> </div>
+</div>
+<div id="solitaire-scorebar" class="flex-div">
+<span class="item" id="solitaire-timer"></span>
+<div class="flex-div">
+<span class="title">Score</span>
+<span class="item" id="solitaire-score"></span>
+</div>
+<div id="solitaire-scorebar-move" class="flex-div">
+<span class="title">Moves</span>
+<span class="item" id="solitaire-move">24</span>
+</div>
+</div>
+<div class="flex-div">
+<div id="solitaire-volume">
+<i id="solitaire-volume-up" class="material-icons-extended"> &#xE050; </i>
+<i id="solitaire-volume-off" style="display:none" class="material-icons-extended"> &#xE04F; </i>
+</div>
+<i id="solitaire-close" class="material-icons-extended"> &#xE5CD; </i>
+</div>
+</div>
+<div id="solitaire-scorebar-sidebar" class="border-box">
+<div class="button" id="solitaire-undo-side-button">
+<i class="material-icons-extended solitaire-scorebar-icons"> &#xE166; </i>
+UNDO
+</div>
+<div class="button" id="solitaire-new-game-side-button">
+<i class="material-icons-extended solitaire-scorebar-icons"> &#xE885; </i>
+NEW
+</div>
+</div>
+<div id="solitaire-container">
+<div id="solitaire-board">
+</div>
+</div>
+<div id="solitaire-mode-dialog" class="solitaire-dialog">
+<div class="place_center">
+<div class="container" id="solitaire-mode-dialog-container">
+<div class="hint">
+<div id="solitaire-dialog-hint" style="width:120px"></div>
+<i id="solitaire-mode-dialog-close" class="close-button material-icons-extended"> &#xE14C; </i>
+</div>
+<div class="option-bar">
+<div class="option" id="solitaire-easy-button">
+<span>EASY</span>
+</div>
+<div class="option" id="solitaire-hard-button">
+<span>HARD</span>
+</div>
+</div>
+</div>
+<div id="solitaire-dialog-share" class="flex-div flex-center">
+<span> Share: </span>
+</div>
+</div>
+</div>
+<div id="solitaire-final-dialog">
+<div id="solitaire-final-dialog-container" class="place_center">
+<div id="ribbon-cards"></div>
+<img id="ribbon-img" src="ribbon_no_text.png" />
+<div id="ribbon-body" class="blue-box">
+<div id="ribbon-text" class="place_center">
+<div class="ribbon-char">YOU</div>
+<div class="ribbon-char">WIN</div>
+<div class="ribbon-char">!</div>
+</div>
+</div>
+</div>
+
+<script nonce="HbODf6ba64DGiteQHBVqlw" src="load2.js"></script>
+</div>
+</body>
+</html>
