@@ -1,0 +1,35 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+
+    "name": "Tower Defense Game",
+    "manifest_version": 3,
+    "description": "Tower defense is a subgenre of strategy game where the goal is to defend a player's territories or possessions",
+    "offline_enabled": true,
+    "version": "1.0.1",
+    "icons": {
+        "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    },
+     "action": {
+         "default_icon": {             
+         "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+        },
+        "default_title": "Color Galaxy",   
+        "default_popup": "popup.html"  
+      },
+     "background": {
+    "service_worker": "background.js"  
+  }
+}
