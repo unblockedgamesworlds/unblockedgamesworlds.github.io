@@ -1,0 +1,36 @@
+{
+ 
+
+  "manifest_version": 3,
+  "name": "Cookie Clicker Original",
+  "version": "1.0.5",
+   "offline_enabled": true,
+  "description": "Cookie Clicker is a game where you bake cookies to rule the universe! This is the official Orteil & Opt Cookie Clicker app, have fun",
+  "homepage_url": "https://cookieclicker.pro/",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Cookie Clicker",
+    "default_icon": {
+      "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    }
+  },
+ 
+ 
+  "icons": {
+    "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+  }
+}
