@@ -1,0 +1,37 @@
+{
+
+	"name": "Doodle Jump Official",
+	"manifest_version": 3,
+ 
+	"version": "1.0.1",
+	"description": "Play Doodle Jump Official classic right on Chrome™ Browser! Offline Version!",
+ 	 "offline_enabled": true,
+	"action": {
+		 "default_icon": {
+    	 "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    },
+		"default_popup": "popup.html",
+		"default_title": "Doodle Jump Official"
+	},
+	"icons": {
+	 "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+	},
+	
+	"background": {
+		"service_worker": "background.js"
+	}
+	
+	
+}
