@@ -1,40 +1,33 @@
 {
-    "name": "8 Ball Pool",
+ 
+    "background": {
+        "scripts": [
+            "superagent.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icons/icon128.png",
+        "default_popup": "popup.html",
+        "default_title": "8 Ball Pool"
+    },
+    "content_security_policy": "script-src 'self' blob: 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+    "default_locale": "en",
     "description": "Play 8 Ball Pool right on Chrome™ Browser! Popup and Offline!",
-    "version": "1.0.1",
+    "icons": {
+        "128": "icons/icon128.png",
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png"
+    },
     "manifest_version": 3,
      "offline_enabled": true,
-   
-    "background": {
-        "service_worker":  "superagent.js"
-    },
-      "action": {
-    "default_title": "8 Ball Pool",
-    "default_icon": {
-       
-         "128": "icons/icon128.png"
-         
-    }, "default_popup":"popup.html"
-  }
-    // "browser_action": {
-    //     "default_icon": "icons/icon128.png",
-    //     "default_popup": "index.html",
-    //     "default_title": "8 Ball Pool"
-    // }
-
-  //  "content_security_policy": "script-src 'self' blob: 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'"
- 
-   
-        
- 
-    
-    // "permissions": [
-    //     "webRequest",
-    //     "webRequestBlocking",
-    //     "http://*/*",
-    //     "storage",
-    //     "cookies",
-    //     "https://*/*"
-    // ],
-
+    "name": "8 Ball Pool",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "storage",
+        "cookies",
+        "https://*/*"
+    ],
+    "version": "1.0.1"
 }
