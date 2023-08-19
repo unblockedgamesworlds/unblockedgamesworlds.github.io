@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<language>
+	<easy>Easy</easy>
+	<medium>Medium</medium>
+	<hard>Hard</hard>
+	<veryhard>Very Hard</veryhard>
+	<expert>Expert</expert>
+	<inhuman>Inhuman</inhuman>
+	<generating>Generating Sudoku. Please Wait</generating>
+	<welldone>Well Done</welldone>
+	<solvetimes>You solve the sudoku in $times</solvetimes>
+	<hintuse>Using Hint: $hint</hintuse>
+	<solveuse>Using Solve: $slove</solveuse>
+	<menu>Menu</menu>
+	<playagain>Play Again</playagain>
+	<add>Add</add>
+	<solve>Solve</solve>
+	<hint>Hint</hint>
+	<reset>Reset</reset>
+    <undo>Undo</undo>
+	<howtoplay>Tutorial</howtoplay>
+	<tutorial>Sudoku.</tutorial>
+</language>
