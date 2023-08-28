@@ -1,0 +1,60 @@
+<!doctypehtml>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=no-js>
+    <!--<![endif]-->
+    <meta charset=utf-8>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <title>Speed Racer</title>
+    <meta content="Speed Racer" name=Title>
+    <meta content="Speed Racer is a HTML5 game where you can drive through the forest world, collecting the powers along the road to help extend the fuel, race with turbo mode and collect coin to get high score!" name=description>
+    <meta content="speed, racer, racing, car, vehicle, world, fuel, coin, turbo, nitro" name=keywords>
+    <meta content="Speed Racer" property=og:title>
+    <meta content="Speed Racer" property=og:site_name>
+     
+    <meta content="Speed Racer is a HTML5 game where you can drive through the forest world, collecting the powers along the road to help extend the fuel, race with turbo mode and collect coin to get high score!" property=og:description>
+    <meta content=summary name=twitter:card>
+    <meta content="Speed Racer" name=twitter:title>
+    <meta content="Speed Racer is a HTML5 game where you can drive through the forest world, collecting the powers along the road to help extend the fuel, race with turbo mode and collect coin to get high score!" name=twitter:description>
+ 
+    <meta content="width=device-width,initial-scale=1,user-scalable=no" name=viewport>
+    
+    <link href=icon.ico rel="shortcut icon" type=image/x-icon>
+    <link href=css/normalize.css rel=stylesheet>
+    <link href=css/main.css rel=stylesheet>
+    <script src=js/vendor/modernizr-2.6.2.min.js></script>
+    <div id=mainLoader>
+        <img src=assets/loader.png>
+        <br>
+        <span>0</span>
+    </div>
+    <div id=mainHolder>
+        <div id=notSupportHolder>
+            <div class=notSupport>
+                YOUR BROWSER ISN'T SUPPORTED.<br>PLEASE UPDATE YOUR BROWSER IN ORDER TO RUN THE GAME
+            </div>
+        </div>
+        <div id=rotateHolder>
+            <div class=mobileRotate>
+                <div class=rotateImg>
+                    <img src=assets/rotate.png>
+                </div>
+                <div class=rotateDesc>
+                    Rotate your device<br>to portrait
+                </div>
+            </div>
+        </div>
+        <div id=canvasHolder>
+            <canvas height=1024 id=gameCanvas width=768></canvas>
+        </div>
+    </div>
+    <script src=jquery_3.6.0_jquery.min.js></script>
+    
+    <script src=js/vendor/detectmobilebrowser.js></script>
+    <script src=js/vendor/createjs.min.js></script>
+    <script src=js/vendor/TweenMax.min.js></script>
+    <script src=js/init.js></script>
+     
+   
