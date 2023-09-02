@@ -1,0 +1,289 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,button,input,select,textarea {
+color:#222;
+}
+html {
+font-size:1em;
+line-height:1.4;
+}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+::selection {
+background: #b3d4fc;
+text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+display: block;
+height: 1px;
+border: 0;
+border-top: 1px solid #ccc;
+margin: 1em 0;
+padding: 0;
+}
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,canvas,img,video {
+vertical-align:middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+border:0;
+margin:0;
+padding:0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+resize:vertical;
+}
+
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+@font-face {
+    font-family: 'quantifybold';
+    src: url('fonts/quantify_bold_v2.6-webfont.woff2') format('woff2'),
+         url('fonts/quantify_bold_v2.6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-user-select: none;-webkit-touch-callout:none; background:#999999;}
+
+/*-- Percent Loader -- */
+#mainLoader{position:absolute;z-index:5; display:none; font-size:20px; line-height:25px; color:#fff; text-align:center; width:100%; font-family:'quantifybold';}
+
+/*-- Content Wrapper -- */
+#mainHolder{position:absolute; width:100%;height:100%;}
+
+/*-- Browser Not Support -- */
+#notSupportHolder{ width:90%; margin:5% auto; position:relative; color:#fff; text-align:center; font-size:25px; font-family:'quantifybold'; display:none;}
+.notSupport{margin-top:200px;}
+
+/*-- Mobile Rotate Instruction -- */
+#rotateHolder{position:absolute;width:100%;height:100%;background-color:#999999;z-index:1000; display:none;}
+.mobileRotate{width:200px;height:auto;position:absolute;text-align:center;}
+.rotateImg{-webkit-animation:spin .5s linear infinite; -moz-animation:spin .5s linear infinite; animation:spin .5s linear infinite; margin-bottom:10px;}
+.rotateDesc{color:#fff; font-size:20px; line-height:20px; font-family:'quantifybold';}
+
+@-moz-keyframes spin { 50% { -moz-transform: rotate(0deg); } 100% { -moz-transform: rotate(0deg); } }
+@-webkit-keyframes spin { 50% { -webkit-transform: rotate(90deg); } 100% { -webkit-transform: rotate(0deg); } }
+@keyframes spin { 50% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } 100% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } }
+
+/*-- Canvas Wrapper -- */
+#canvasHolder{ display:none; width:100%; max-width:1280px; height:100%; margin:auto; position:relative;}
+canvas{ position:fixed;}
+
+/*-- Form Wrapper -- */
+#editWrapper{ display:none;}
+#floatForm{ position:fixed; left:0; top:0; z-index:100; background:#46008C; padding:15px; color:#FFF; width:280px; border:#fff solid 2px;}
+#floatForm{ font-size:12px;}
+#floatForm #editStartEndWrapper, #floatForm #editLinesWrapper, #floatForm #editObstalesWrapper{ background:#330066; padding:10px;}
+#floatForm #editSwitchWrapper, #floatForm #editEnemyDotsWrapper{ border:#FFF solid 1px; padding:5px;}
+#floatForm input.button, #floatForm select.half, #floatForm label{ width:49%;}
+#floatForm .formRow input, #floatForm .formRow select{ float:right; width:48%;}
+#floatForm .formRow label{ float:left; width:48%;}
+#floatForm .divider{ margin:10px 0; padding:10px 10px; border:#FFF solid 1px;}
+
+#floatForm input{ width:100%;}
+#floatForm textarea{ float:left; width:100%;}
+#floatForm select, #floatForm option{ width:100%;}
+
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+.ir {
+background-color: transparent;
+border: 0;
+overflow: hidden;
+/* IE 6/7 fallback */
+*text-indent: -9999px;
+}
+
+.ir:before {
+content: "";
+display: block;
+width: 0;
+height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+display: none !important;
+visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0;
+position: absolute;
+width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+clip: auto;
+height: auto;
+margin: 0;
+overflow: visible;
+position: static;
+width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,.clearfix:after{
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+
+.clearfix:after{
+clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix{
+*zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print{
+* {
+background:transparent!important;
+color:#000!important;
+box-shadow:none!important;
+text-shadow:none!important;
+}
+
+a,a:visited {
+text-decoration:underline;
+}
+
+a[href]:after {
+content:" (" attr(href) ")";
+}
+
+abbr[title]:after {
+content:" (" attr(title) ")";
+}
+
+.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {
+content:"";
+}
+
+pre,blockquote {
+border:1px solid #999;
+page-break-inside:avoid;
+}
+
+thead {
+display:table-header-group;
+}
+
+tr,img {
+page-break-inside:avoid;
+}
+
+img {
+max-width:100%!important;
+}
+
+@page {
+margin:.5cm;
+}
+
+p,h2,h3 {
+orphans:3;
+widows:3;
+}
+
+h2,h3 {
+page-break-after:avoid;
+}
+}
