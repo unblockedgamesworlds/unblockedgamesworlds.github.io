@@ -1,0 +1,35 @@
+{
+
+
+  "manifest_version": 3,
+  "name": "Guess The Picture",
+  "version": "1.0.1",
+  "description": "Play Guess The Pictures right on Chrome™ Browser! ",
+  "homepage_url": "https://monkeymart.org",
+  "background": {
+    "service_worker": "background.js"
+  },
+   "offline_enabled": true,
+  "action": {
+    "default_title": "Guess The Picture",
+    "default_icon": {
+      "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+          
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    }, "default_popup":"index.html"
+  },
+ 
+  "icons": {
+    "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+        
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+  }
+}
