@@ -1,0 +1,170 @@
+{
+    "c2array": true,
+    "size": [
+        5,
+        10,
+        1
+    ],
+    "data": [
+        [
+            [
+                "en"
+            ],
+            [
+                "Chapter"
+            ],
+            [
+                "Level"
+            ],
+            [
+                "Tutorial"
+            ],
+            [
+                "LEVEL CLEAR"
+            ],
+            [
+                "LEVEL FAILED"
+            ],
+            [
+                "Buy Hints?"
+            ],
+            [
+                "Get Free"
+            ],
+            [
+                "Buy Undo?"
+            ],
+            [
+                "Buy Shuffle?"
+            ]
+        ],
+        [
+            [
+                "zh"
+            ],
+            [
+                "章节 "
+            ],
+            [
+                "等级 "
+            ],
+            [
+                "教程"
+            ],
+            [
+                "等级完成"
+            ],
+            [
+                "级别失败"
+            ],
+            [
+                "级别失败?"
+            ],
+            [
+                "免费"
+            ],
+            [
+                "购买撤消？\n"
+            ],
+            [
+                "购买随机播放？"
+            ]
+        ],
+        [
+            [
+                "tr"
+            ],
+            [
+                "Bölüm "
+            ],
+            [
+                "Seviye "
+            ],
+            [
+                "Öğretici "
+            ],
+            [
+                "SEVIYE TAMAMLANDI"
+            ],
+            [
+                "SEVIYE TAMAMLANAMADI"
+            ],
+            [
+                "Ipucu satın al?"
+            ],
+            [
+                "Ucretsiz al"
+            ],
+            [
+                "Geri alma satın al?"
+            ],
+            [
+                "Karıştırma satın al?"
+            ]
+        ],
+        [
+            [
+                "de"
+            ],
+            [
+                "Kapitel"
+            ],
+            [
+                "Niveau"
+            ],
+            [
+                "Tutorial"
+            ],
+            [
+                "LEVEL ABGESCHLOSSEN\n\n"
+            ],
+            [
+                "LEVEL GESCHEITERT\n\n"
+            ],
+            [
+                "Tipps kaufen?\n\n\n"
+            ],
+            [
+                "Kostenlos werden\n\n\n"
+            ],
+            [
+                "Kaufen rückgängig machen?\n\n\n"
+            ],
+            [
+                "Shuffle kaufen?"
+            ]
+        ],
+        [
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ]
+    ]
+}
