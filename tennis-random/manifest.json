@@ -1,0 +1,28 @@
+{
+
+
+  "manifest_version": 3,
+  "name": "Tile Master Match",
+  "version": "1.0.1",
+  "description": "Tiles Master Match Game requires you to match 3 blocks of the same element play right on Chrome™ Browser! ",
+  "homepage_url": "https://monkeymart.org",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Tiles Master",
+     "offline_enabled": true,
+    "default_icon": {
+   
+         "256": "icons/icon-256.png"
+          
+    }, "default_popup":"load.html"
+  },
+   "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'; child-src 'self'; worker-src 'self'",
+        "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; object-src 'self' 'unsafe-eval' blob: 'unsafe-inline';child-src 'self' 'unsafe-eval' blob: 'unsafe-inline' ; worker-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; script-src-elem 'self' 'unsafe-eval' blob: 'unsafe-inline'"
+    },
+  "icons": {
+"256": "icons/icon-256.png"
+  }
+}
