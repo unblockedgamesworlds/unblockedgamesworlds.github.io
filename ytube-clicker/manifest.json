@@ -1,0 +1,35 @@
+{
+
+
+  "manifest_version": 3,
+  "name": "Youtube Clicker",
+  "version": "1.0.1",
+  "description": "Youtube Clicker play right on Chrome™ Browser! This is one of our best Clicker games! ",
+  "homepage_url": "https://monkeymart.org",
+   "offline_enabled": true,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Youtube Clicker",
+    "default_icon": {
+      "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    }, "default_popup":"load.html"
+  },
+ 
+  "icons": {
+    "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+  }
+}
