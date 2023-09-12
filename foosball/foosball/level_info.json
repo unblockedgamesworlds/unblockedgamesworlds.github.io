@@ -1,0 +1,14 @@
+[{"points_to_win": 5,
+  "cpu_speed_sticks": 4},
+    
+    {"points_to_win":5,
+  "cpu_speed_sticks": 5},
+    
+    {"points_to_win":7,
+  "cpu_speed_sticks": 6},
+    
+    {"points_to_win":7,
+  "cpu_speed_sticks": 7},
+    
+    {"points_to_win":10,
+  "cpu_speed_sticks": 8}]

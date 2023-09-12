@@ -1,0 +1,46 @@
+{
+
+
+  "manifest_version": 3,
+  "name": "Foosball Table",
+  "version": "1.0.1",
+  "description": "Foosball Table now you can right on Chrome™ Browser with computer or your friends! Without internet required! ",
+  "homepage_url": "https://monkeymart.org",
+   "offline_enabled": true,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Foosball",
+    "default_icon": {
+      "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+          
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    }, "default_popup":"load.html"
+  },
+   "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'; child-src 'self'; worker-src 'self'",
+        "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; object-src 'self' 'unsafe-eval' blob: 'unsafe-inline';child-src 'self' 'unsafe-eval' blob: 'unsafe-inline' ; worker-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; script-src-elem 'self' 'unsafe-eval' blob: 'unsafe-inline'"
+    },
+    "sandbox": {
+        "pages": [
+      
+            "index.html"
+
+            
+        ]
+    },
+  "icons": {
+    "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+        
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+  }
+}
