@@ -1,16 +1,29 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"Unsurprisingly, this website uses cookies for ads and traffic analysis.","dismiss":"Got it!","learnMore":"Learn more","link":"//orteil.dashnet.org/cookieconsentpolicy.html","target":"_blank","theme":"//orteil.dashnet.org/cookieconsent.css","domain":"dashnet.org"};
+</script>
 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
 
-
-<title>Dashboard</title>
-
+<title>Cookie Clicker Unblocked Game</title>
+<!--
+Code and graphics copyright Orteil, 2013-2020
+Feel free to alter this code to your liking, but please do not re-host it, do not profit from it and do not present it as your own.
+-->
 
 <meta name="viewport" content="width=900, initial-scale=1">
-<link rel="shortcut icon" href="canvas.ico" />
-<link href='css.css' rel='stylesheet' type='text/css'>
+<meta name="description" content="Cookie Clicker is a game where you bake cookies to rule the universe! This is the official Orteil & Opt Cookie Clicker app">
+<meta name="keywords" content="gcookie clicker, cookie clicker unblocked, cookie clicker 2, hacking cookie clicker, çookie clicker, cookie clicker unblocked games, cookie clicker wiki, cookie clicker game, cookie clicker 1, cookie clicker github">
 
+<link rel="shortcut icon" href="canvas.ico" />
+<!--<link href="https://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext" rel="stylesheet" type="text/css">-->
+<link href='https://fonts.googleapis.com/css?family=Merriweather:900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<script src="showads.js"></script><!-- this just detects adblockers so we can adjust the layout and play nice -->
+<script src="base64.js"></script>
+<script src="main.js?v=2.089"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4938767041116941" crossorigin="anonymous"></script>
 
 <link href="style.css?v=2.053" rel="stylesheet" type="text/css">
  
@@ -20,24 +33,24 @@
 <div id="wrapper">
 
 	<div id="topBar" style="display: none;">
-		<div><b>Cookie Clicker</b>&trade; &copy; <a href="//orteil.dashnet.org" target="_blank" id="topbarOrteil">Orteil</a>, 2021 - <a href="//dashnet.org" target="_blank" id="topbarDashnet">DashNet</a></div>
-		<div><a href="https://twitter.com/orteil42" target="_blank" id="topbarTwitter">twitter</a></div>
-		<div><a href="https://orteil42.tumblr.com" target="_blank" id="topbarTumblr">tumblr</a></div>
-		<div style="position:relative;"><div style="width:22px;height:32px;background:url(img/discord.png);position:absolute;left:0px;top:0px;pointer-events:none;"></div><a href="https://discordapp.com/invite/cookie" target="_blank" style="padding-left:16px;" id="topbarDiscord">Discord</a></div>
-		<div style="position:relative;"><div style="width:25px;height:32px;background:url(img/weeHoodie.png);position:absolute;left:-2px;top:0px;pointer-events:none;"></div><a class="blueLink" href="http://www.redbubble.com/people/dashnet" target="_blank" style="padding-left:12px;" id="topbarMerch">Merch!</a></div>
-		<div style="position:relative;"><div style="width:22px;height:32px;background:url(img/patreon.png);position:absolute;left:0px;top:0px;pointer-events:none;"></div><a class="orangeLink" href="https://www.patreon.com/dashnet" target="_blank" style="padding-left:16px;" id="topbarPatreon">Patreon</a></div>
+		<div style="display:none;"><b>Cookie Clicker</b>&trade; &copy; <a href="//orteil.dashnet.org" target="_blank" id="topbarOrteil">Orteil</a>, 2021 - <a href="//dashnet.org" target="_blank" id="topbarDashnet">DashNet</a></div>
+		<div style="display:none;"><a href="https://twitter.com/orteil42" target="_blank" id="topbarTwitter">twitter</a></div>
+		<div style="display:none;"><a href="https://orteil42.tumblr.com" target="_blank" id="topbarTumblr">tumblr</a></div>
+		<div style="position:relative;display:none;"><div style="width:22px;height:32px;background:url(img/discord.png);position:absolute;left:0px;top:0px;pointer-events:none;"></div><a href="https://discordapp.com/invite/cookie" target="_blank" style="padding-left:16px;" id="topbarDiscord">Discord</a></div>
+		<div style="display:none;position:relative;"><div style="display:none;width:25px;height:32px;background:url(img/weeHoodie.png);position:absolute;left:-2px;top:0px;pointer-events:none;"></div><a class="blueLink" href="http://www.redbubble.com/people/dashnet" target="_blank" style="padding-left:12px;" id="topbarMerch">Merch!</a></div>
+		<div style="position:relative;"><div style="width:22px;height:32px;background:url(img/patreon.png);position:absolute;left:0px;top:0px;pointer-events:none;"></div><a class="orangeLink" href="https://www.patreon.com/dashnet" target="_blank" style="display:none;padding-left:16px;" id="topbarPatreon">Patreon</a></div>
 		<div style="position:relative;display:none;font-weight:bold;" id="heralds"><div style="position:absolute;top:-4px;width:31px;height:39px;background:url(img/heraldFlag.png);left:50%;margin-left:-15px;pointer-events:none;"></div><div id="heraldsAmount" style="position:relative;z-index:10;text-shadow:0px 1px 0px #000,0px 0px 6px #ff00e4;color:#fff;">-</div></div>
-		<div><a class="lightblueLink" style="font-weight:bold;" href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank" id="topbarMobileCC">Cookie Clicker for Android</a></div>
-		<div><a href="//orteil.dashnet.org/randomgen/" target="_blank" id="topbarRandomgen">RandomGen</a></div>
-		<div><a href="//orteil.dashnet.org/igm/" target="_blank" id="topbarIGM">Idle Game Maker</a></div>
-		<div><a href="../games.html" id="back">Home</a></div>
-		<div id="links" class="hoverer">
+		<div ><a  class="lightblueLink" style="font-weight:bold;" href="https://play.google.com/store/apps/details?id=com.gsnake.free_online_games" target="_blank" id="topbarMobileCC">Cookie Clicker for Android</a></div>
+		<div style="display:none;"><a href="//orteil.dashnet.org/randomgen/" target="_blank" id="topbarRandomgen">RandomGen</a></div>
+		<div style="display:none;"><a href="//orteil.dashnet.org/igm/" target="_blank" id="topbarIGM">Idle Game Maker</a></div>
+		<div style="display:none;"><a href="../games.html" id="back">Home</a></div>
+		<div style="display:none;" id="links" class="hoverer">
 			Other versions
 			<div class="hoverable">
-			<a href="../" target="_blank" id="linkVersionLive">Live version</a>
-			<a href="beta" target="_blank" id="linkVersionBeta">Try the beta!</a>
-			<a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" id="linkVersionOld">v. 1.0466</a>
-			<a href="//orteil.dashnet.org/experiments/cookie/" target="_blank">Classic</a>
+			<a href="https://drunk-game.com" target="_blank" id="linkVersionLive">Live version</a>
+			<a href="https://drunk-game.com" target="_blank" id="linkVersionBeta">Try the beta!</a>
+			<a href="https://drunk-game.com" target="_blank" id="linkVersionOld">v. 1.0466</a>
+			<a href="https://drunk-game.com" target="_blank">Classic</a>
 			</div>
 		</div>
 	</div>
@@ -68,7 +81,7 @@
 		<div id="notes"></div>
 		<div id="darken"></div>
 		<div id="toggleBox" class="framed prompt"></div>
-		<div id="promptAnchor"><div id="prompt" class="framed"><div id="promptContent"></div><div class="close" id="close" >x</div></div></div>
+		<div id="promptAnchor"><div id="prompt" class="framed"><div id="promptContent"></div><div class="close" onclick="PlaySound('snd/tick.mp3');Game.ClosePrompt();">x</div></div></div>
 		<div id="versionNumber" class="title"></div>
 		<div id="ascend">
 			<div id="ascendBG"></div>
@@ -101,7 +114,7 @@
 			<div id="comments" class="inset title">
 				<div id="prefsButton" class="button">Options</div>
 				<div id="statsButton" class="button">Stats</div>
-				<div style="display: none;" id="logButton" class="button"><div id="checkForUpdate">New update!</div>Info</div>
+				<div id="logButton" class="button"><div id="checkForUpdate">New update!</div>Info</div>
 				<div id="legacyButton" class="button">Legacy<div id="ascendMeterContainer" class="smallFramed meterContainer"><div id="ascendMeter" class="meter filling"></div></div><div class="roundedPanel" id="ascendNumber"></div><div id="ascendTooltip" class="framed"></div></div>
 				<div id="commentsTextBelow" class="commentsText"></div>
 				<div id="commentsText" class="commentsText"></div>
@@ -132,7 +145,21 @@
 			</div>
 			<div id="smallSupport" style="width:300px;text-align:center;padding-bottom:40px;background:rgba(0,0,0,0.5);position:relative;z-index:100;">
 				
-				 
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4938767041116941"
+     crossorigin="anonymous"></script>
+<!-- monkeymart -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4938767041116941"
+     data-ad-slot="6969573070"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+				
+				<div class="supportComment">^ Sponsored link ^</div>
 			</div>
 			<div id="store">
 				<div id="storeTitle" class="inset title zoneTitle">Store</div>
@@ -145,10 +172,32 @@
 			
 			<div id="detectAds" class="adBanner" style="background:transparent;width:1px;height:1px;"></div>
 			<div id="support" style="margin-top:130px;">
-				<div class="supportComment"></div>
+				<div class="supportComment">v Sponsored links v</div>
 				<div style="position:relative;">
 				
-					 
+					<div style="position:relative;z-index:100;min-height:250px;">
+					
+						<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4938767041116941"
+     crossorigin="anonymous"></script>
+<!-- monkeymart -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4938767041116941"
+     data-ad-slot="6969573070"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+						
+						<div style="height:16px;"></div>
+						
+						<!-- AdventureQuest Worlds banner -->
+						<a style="display: none;" class="ad" id="aqad" href="http://www.aq.com/landing/cookie/?utm_campaign=AQW_CookieClicker&utm_source=CookieClicker" target="_blank" title="AdventureQuest Worlds" style="background:url(img/aqworldsbanner.jpg) no-repeat;width:300px;height:64px;display:block;position:relative;margin:0px auto;">
+						</a>
+						
+					</div>
 					
 				</div>
 			</div>
@@ -171,9 +220,5 @@
 	</div>
 
 </div>
-
-<script type="text/javascript" src="cookieconsent.min.js"></script>
- <script src="base64.js"></script>
-<script src="main.js?v=2.089"></script>
 </body>
 </html>
