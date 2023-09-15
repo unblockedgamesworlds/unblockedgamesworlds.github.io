@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Doodle Trump</title>
+ 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="css/popup.css" media="screen, projection" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="container">
+		  
+		<canvas id="canvas"></canvas>
+
+		<div id="mainMenu">
+			<h1>doodle trump</h1>
+			<h3><span l_content="best_score">best_score</span>: <spa id="best_score">0</spa></h3>
+			<a class="button" id="start_btn" l_content="start">Start</a>
+			<p class="info">
+				<span l_content="info_1">Use</span>
+				<span class="key left">←</span>
+				<span class="key right">→</span>
+				<span l_content="info_2">to move</span>
+				<br>
+				<span l_content="info_3">and SPACE to (re)start...</span>
+			</p>
+		</div>
+
+		<div id="gameOverMenu">
+			<h1><span l_content="game_over">game over!</span></h1>
+			<h3><span l_content="score">Score</span>: <span id="go_score">0</span></h3>
+			<h3><span l_content="best_score">best_score</span>: <span id="go_best_score">0</span></h3>
+
+			<a class="button" id="restart_btn" l_content="restart">Restart</a>
+		</div>
+
+
+		<img id="sprite" src="img/sprite.png" />
+		<img id="china" src="audio/china.mp3" />
+
+		<div id="scoreBoard">
+			<p id="score">0</p>
+		</div>
+
+	</div>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="rate.js"></script>
+</body>
+
+</html>
