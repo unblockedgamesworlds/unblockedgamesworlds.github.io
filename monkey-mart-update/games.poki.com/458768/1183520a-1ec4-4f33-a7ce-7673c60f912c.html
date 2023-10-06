@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui, shrink-to-fit=no viewport-fit=cover" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="robots" content="noindex, follow">
+		<link rel="icon" type="image/x-icon" href="https://a.poki.com/img/favicon.ico">
+
+		
+
+		
+<style>
+* {
+	box-sizing: border-box;
+}
+
+/* SAFARI GROWING IFRAME FIX */
+html, body { height: 100%; width: 100%; overflow: hidden; }
+body { overflow: auto;-webkit-overflow-scrolling: touch; }
+/* END SAFARI GROWING IFRAME FIX */
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #002B50;
+}
+
+#gameframe {
+	flex-grow: 1;
+	border: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	z-index: 999999;
+	position: relative;
+	transform-origin: bottom left;
+	transform: scale3d(1, 1, 1); /* hardware accelerated scaling */
+	transition: transform 0.3s ease-in;
+	will-change: transform;
+	/* iOS safari growing iframe fix */
+	height: 1px; /* this works because flex-grow is more important */
+	min-width: 100%;
+	width: 1px;
+}
+
+#footer {
+	padding: 10px 16px;
+	height: 64px;
+	width: 100%;
+	background: #fff;
+	display: flex;
+}
+
+#store-info,
+#game-info {
+	display: flex;
+	flex-direction: column;
+}
+
+#game-info {
+	flex-grow: 1;
+}
+
+#store-info {
+	flex-shrink: 1;
+	justify-content: center;
+    align-items: center;
+}
+
+#store-info {
+	flex-direction: row;
+	margin: 0 16px;
+}
+
+h2{
+	font-size:inherit;
+}
+
+#game-info h2 {
+	font-family: Torus, Arial, sans-serif;
+	font-size: 20px;
+	color: #002B50;
+	margin: 2px 0 0;
+	line-height:24px;
+}
+
+#game-info p {
+	font-family: 'Proxima Nova', Arial, sans-serif;
+	color: #7E91AB;
+	font-size: min(max(8px, 3vw), 12px);
+	margin: 0;
+	white-space: nowrap;
+}
+
+#thumb-info {
+	display:flex;
+}
+
+#thumb {
+	flex-shrink: 0;
+	width: 44px;
+	height: 44px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.24);
+	margin-right: 16px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#poki-logo {
+	flex-shrink: 0;
+}
+
+#poki-logo-img {
+	margin-top: -4px;
+	height: 52px;
+	vertical-align: bottom;
+}
+
+.store-link {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 8px;
+	max-width: 130px;
+}
+
+.store-link img {
+	width: 100%;
+}
+
+#adInfo {
+	padding: 10px 16px;
+	height: 64px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left = 0;
+	background: #FFF;
+	display: none;
+	alignItems: center;
+	pointerEvents: none;
+	transition: opacity 500ms ease-in;
+}
+
+#adInfo .logo {
+	margin: 4px;
+}
+
+#adInfo .textContainer {
+	display: inline-block;
+	marginLeft: 16px;
+}
+
+.textContainer > .title {
+	font: bold 16px/20px Proxima Nova;
+	color: #002B50;
+	margin: 0;
+}
+
+.textContainer > .status {
+	font: 12px/16px Proxima Nova;
+	color: #5D6B84;
+	margin: 0;
+}
+
+@keyframes scaleDelay {
+	0%,
+	80%,
+	100% {
+		transform: scale(0);
+	}
+
+	40% {
+		transform: scale(1);
+	}
+}
+.spinner {
+	position: absolute;
+	display: flex;
+	top: 50%;
+	left: 50%;
+	margin-left: -33px;
+	margin-top: -9px;
+	width: 66px;
+}
+.spinner > div {
+	width: 18px;
+	height: 18px;
+	margin: 0 2px;
+	border-radius: 100%;
+	background: #fff;
+	animation: scaleDelay 1.4s infinite ease-in-out both;
+}
+.spinner .bounce1 {
+	animation-delay: -.32s;
+}
+.spinner .bounce2 {
+	animation-delay: -.16s;
+}
+</style>
+
+
+		
+
+		<link rel="canonical" href="https://poki.com/en/g/monkey-mart"/>
+
+	</head>
+	<body>
+		<div class="spinner" id="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+
+		<iframe id="gameframe" src="about:blank" allow="autoplay; camera; focus-without-user-activation *; monetization; gamepad; keyboard-map *; xr-spatial-tracking; clipboard-write; web-share" scrolling="no"></iframe>
+
+		<script type="text/javascript">
+		window.PARAMS = {"gameUri":"https://1183520a-1ec4-4f33-a7ce-7673c60f912c.poki-gdn.com/7c3d8da9-dca8-4074-b8ae-33350b309da2/index.html?country=VN&ccpaApplies=0&url_referrer=https%3A%2F%2Fwww.trochoi.net%2F&tag=pg-v3.135.0&site_id=21&iso_lang=vi&poki_url=https%3A%2F%2Fwww.trochoi.net%2Ftr%C3%B2+ch%C6%A1i%2Fmonkey-mart.html&gdhoist=yes&nonPersonalized=n&familyFriendly=n&categories=4%2C52%2C64%2C69%2C91%2C96%2C103%2C118%2C414%2C839%2C929%2C1014%2C1126%2C1140%2C1141%2C1143%2C1147%2C1163&special_condition=landing&game_id=1183520a-1ec4-4f33-a7ce-7673c60f912c&game_version_id=7c3d8da9-dca8-4074-b8ae-33350b309da2","onPoki":true,"onKids":false,"isLocal":false,"gameID":"1183520a-1ec4-4f33-a7ce-7673c60f912c","gameCode":"458768","gameVersion":"7c3d8da9-dca8-4074-b8ae-33350b309da2","footer":null,"canonical":"https://poki.com/en/g/monkey-mart","contentGameID":30475,"bot":{"verified":false,"score":97,"isBot":false},"experiment":"","localisation":{"playingad":"Đang phát quảng cáo","loading":"Đang tải...","preparing":"Đang chuẩn bị ..."}};
+		</script>
+
+
+		
+
+		
+		<svg style="display:none">
+			<symbol id="favIcon" viewBox="0 0 36 36">
+				<g fill="none">
+					<path d="M18.0837 0C12.3552 0 7.6096 1.9567 4.3607 5.657 1.5489 8.86 0 13.224 0 17.945c0 4.8601 1.578 9.3005 4.444 12.5035C7.694 34.081 12.4103 36 18.0837 36c5.551 0 10.2023-1.914 13.4495-5.5361C34.4134 27.2512 36 22.8445 36 18.0556c0-4.8365-1.5852-9.2762-4.4637-12.5017C28.2945 1.921 23.6426 0 18.0837 0z" fill="#002b50" />
+					<path d="M18.0002 30.2865c-6.7867 0-12.3074-5.5782-12.3074-12.4339 0-6.5792 5.636-12.1375 12.3074-12.1375 6.6715 0 12.3076 5.5583 12.3076 12.1375 0 6.8557-5.5216 12.4339-12.3076 12.4339" fill="#fff" />
+					<path d="M17.9182 18.8012c-5.4178 0-8.1573.939-9.2878 1.2275.9465 4.3075 4.7498 7.5394 9.2878 7.5394 4.5374 0 8.3411-3.2319 9.2878-7.5394-1.1304-.2884-3.8702-1.2275-9.2878-1.2275" fill="#009cff" />
+				</g>
+			</symbol>
+		</svg>
+
+		<div id="adInfo">
+			<svg class="logo" width="36px" height="36px">
+				<use href="#favIcon" />
+			</svg>
+			<div class="textContainer">
+				<h2 class="title">Chúng tôi sẽ trở lại sau kỳ nghỉ ngắn ngủi này</h2>
+				<p class="status">Đang phát quảng cáo : 05</p>
+			</div>
+		</div>
+		
+
+		<script>
+			// [iOS Fix] Full screen, taking nav bar into account
+			const resize = () => {
+				window.scrollTo(0, 0);
+				document.body.style.width = document.documentElement.style.width = window.innerWidth+'px';
+				document.body.style.height = document.documentElement.style.height = window.innerHeight+'px';
+			};
+			window.addEventListener('resize', resize);
+			resize();
+
+			// [iOS] Fix initial resizing not going well
+			setTimeout(()=>{
+				resize();
+			},
+			3000)
+		</script>
+
+		<script>
+			
+			!function(e){var t={};function n(o){if(t[o])return t[o].exports;var i=t[o]={i:o,l:!1,exports:{}};return e[o].call(i.exports,i,i.exports,n),i.l=!0,i.exports}n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var i in e)n.d(o,i,function(t){return e[t]}.bind(null,i));return o},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=2)}([function(e,t){var n;n=function(){return this}();try{n=n||new Function("return this")()}catch(e){"object"==typeof window&&(n=window)}e.exports=n},function(e,t,n){(function(o){var i;void 0===(i=function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.pushEvent=void 0;var n=window;t.pushEvent=function(e,t,o){"undefined"!=typeof window&&n.context&&n.pokiGTM&&n.pokiGTM.push({event:e+"-"+t,eventNoun:e,eventVerb:t,eventData:o||{}})}}.apply(t,[n,t]))||(e.exports=i)}).call(this,n(0))},function(e,t,n){(function(o){var i,a;i=[n,t,n(3),n(4),n(5),n(7),n(8),n(1)],void 0===(a=function(e,t,n,o,i,a,r,s){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var u,d=window,c=d.PARAMS,p=c.environment,l=c.isLocal,g=c.onPoki,f=c.onKids,m=c.gameVersion,v=c.gameID,w=c.contentGameID,y=c.bot,S=d.PARAMS.gameUri;g||l||"development"===p?i.setupSdkPlatformCommunication():f||(i.setupAdListeners(),n.updateSession(window.location.pathname,"external",w),d.user=n.getUser(),d.context={tag:null,site:{id:null,domain:"games.poki.com",prefix:""},page:{id:w,type:"external",path:window.location.pathname,pageview_id:n.uuid()},user:d.user,session:d.session},d.pokiGTM=d.pokiGTM||[],d.tracker=d.tracker||[],d.updateSession=n.updateSession,i.setupSdkGtmCommunication());try{var h=a.default(S);if(!f&&(h.indexOf("//game-cdn.poki.com/")>-1||h.indexOf(".poki-gdn.com/")>-1)){h=h.substr(0,h.lastIndexOf("/"));var _=window.localStorage.getItem("savegame-"+v);if(window.localStorage.setItem("savegame-"+v,h),/^((?!chrome|android).)*safari/i.test(navigator.userAgent)){var k=h+"/poki-savegame-safarisavegame.html?next="+encodeURIComponent(S);S=k}else if(_&&_!==h){var b=r.default(_)===r.default(h)?"&unity-only":"";k=h+"/poki-savegame-import.html?previous="+encodeURIComponent(_)+b+"&next="+encodeURIComponent(S);S=k}}}catch(e){}o.default((function(){var e=document.getElementById("gameframe");e.src=S,e.onload=function(){var t=document.getElementById("spinner");t&&t.parentElement&&t.parentElement.removeChild(t),setTimeout((function(){e.focus()}),0)}})),document.addEventListener("focus",(function(){var e;null===(e=document.getElementById("gameframe"))||void 0===e||e.focus()})),window.location.ancestorOrigins&&window.location.ancestorOrigins.length>0&&(u=window.location.ancestorOrigins[window.location.ancestorOrigins.length-1]),window.parent&&window.parent.postMessage({type:"pubHostInitialized",content:{gameVersion:m,gameID:v,topOrigin:u,bot:y}},"*"),g||l||f||s.pushEvent("pubHost","initialized",{gameID:v,gameVersion:m,contentGameID:w,topOrigin:u,origin:"game",bot:y})}.apply(t,i))||(e.exports=a)}).call(this,n(0))},function(e,t,n){"use strict";function o(e,t){if(navigator.sendBeacon){var n=navigator.sendBeacon.bind(navigator);try{if(n(e,t))return}catch(e){console.error(e)}}try{var o="XMLHttpRequest"in window?new XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP");o.open("POST",e,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(t)}catch(e){}}function i(e){var t=new RegExp("".concat(e,"=([^;]+)(?:;|$)")).exec(document.cookie);return t?t[1]:""}function a(e){document.cookie="".concat(e,"=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; samesite=lax")}function r(e,t,n){document.cookie="".concat(e,"=").concat(t,"; path=/; samesite=lax; max-age=").concat(Math.min(n||15552e3,15552e3))}function s(){for(var e=Math.floor(Date.now()/1e3),t="",n=0;n<4;n++)t=String.fromCharCode(255&e)+t,e>>=8;if(window.crypto&&crypto.getRandomValues&&Uint32Array){var o=new Uint32Array(12);crypto.getRandomValues(o);for(var i=0;i<12;i++)t+=String.fromCharCode(255&o[i])}else for(var a=0;a<12;a++)t+=String.fromCharCode(Math.floor(256*Math.random()));return btoa(t).replace(/\+/g,"-").replace(/\//g,"_").replace(/=/g,"")}n.r(t),n.d(t,"beacon",(function(){return o})),n.d(t,"getCookie",(function(){return i})),n.d(t,"getTabSession",(function(){return g})),n.d(t,"getUser",(function(){return c})),n.d(t,"isSessionExpired",(function(){return y})),n.d(t,"logError",(function(){return d})),n.d(t,"markSessionInteraction",(function(){return S})),n.d(t,"protocolVersion",(function(){return u})),n.d(t,"removeCookie",(function(){return a})),n.d(t,"setCookie",(function(){return r})),n.d(t,"updateSession",(function(){return w})),n.d(t,"uuid",(function(){return s}));var u=7;function d(e,t,n){console.error(e);var i=[{k:"where",v:t},{k:"error",v:e.name&&e.message?"".concat(e.name,": ").concat(e.message):JSON.stringify(e)}];if(void 0!==n){var a=n;"string"!=typeof e&&(a=JSON.stringify(e)),i.push({k:"extra",v:a})}o("https://t.poki.io/l",JSON.stringify({c:"observer-error",ve:7,d:i}))}function c(){var e,t,n=null===(e=window[window._pokiUserGlobalName])||void 0===e?void 0:e.id,o=(null===(t=window[window._pokiUserGlobalName])||void 0===t?void 0:t.is_new)||!1;if(!n)try{n=sessionStorage.getItem("uid"),o="1"===sessionStorage.getItem("uid_new")}catch(e){}n||(n=i("uid"),o="1"===i("uid_new")),n||(n=s(),o=!0),r("uid",n),r("uid_new",o?"1":"0");try{sessionStorage.setItem("uid",n),sessionStorage.setItem("uid_new",o?"1":"0")}catch(e){}return window[window._pokiUserGlobalName]={id:n,is_new:o},{id:n,is_new:o}}window._pokiUserGlobalName=window._pokiUserGlobalName||"user";var p="poki_session";function l(e){return!(!e||!(e&&e.page&&e.landing_page&&e.previous_page)||!e.tab_id||!e.expire||Date.now()>e.expire||e.expire>Date.now()+18e5)}function g(){var e=null;l(window[window._pokiSessionGlobalName])&&(e=window[window._pokiSessionGlobalName]);try{var t=JSON.parse(sessionStorage.getItem(p));l(t)&&(!e||t.depth>e.depth)&&(e=t)}catch(e){try{d(e,"getTabSession",sessionStorage.getItem(p))}catch(t){d(e,"getTabSession",t)}}return e}function f(){var e=g();return e?e.tab_id:s()}function m(){var e=0,t=g();t&&(e=t.depth);try{var n=JSON.parse(i(p)||null);l(n)&&(e=Math.max(e,n.depth))}catch(e){var o=null;try{o=i(p)||null}catch(e){}d(e,"getSessionDepth",o)}return e}function v(){try{var e=i("ses_cnt");return e&&parseInt(e,10)||0}catch(e){return 0}}function w(e,t,n){var o=null;try{l(o=g())?(o.previous_page.path=o.page.path,o.previous_page.type=o.page.type,o.previous_page.id=o.page.id,o.previous_page.start=o.page.start,o.previous_page.pageview_id=o.page.pageview_id,o.page.path=e,o.page.type=t,o.page.id=n,o.page.start=Date.now(),o.page.pageview_id=s(),o.depth=m()+1,o.expire=Date.now()+18e5):o=function(e,t,n){try{var o=JSON.parse(i(p)||null);if(l(o))return o.previous_page.path=o.page.path,o.previous_page.type=o.page.type,o.previous_page.id=o.page.id,o.previous_page.start=o.page.start,o.previous_page.pageview_id=o.page.pageview_id,o.page.path=e,o.page.type=t,o.page.id=n,o.page.start=Date.now(),o.page.pageview_id=s(),o.depth=m()+1,o.expire=Date.now()+18e5,o.tab_id=f(),r(p,JSON.stringify(o)),o}catch(e){var a=null;try{a=i(p)||null}catch(e){}d(e,"getSessionDepth",a)}var u=s();return{id:s(),expire:Date.now()+18e5,tab_id:f(),depth:1,count:v()+1,page:{path:e,type:t,id:n,start:Date.now(),pageview_id:u},previous_page:{},landing_page:{path:e,type:t,id:n,start:Date.now(),pageview_id:u}}}(e,t,n);try{r("ses_cnt",o.count)}catch(e){d(e,"updateSession-3")}o.count>1&&function(){try{r("uid_new","0"),sessionStorage.setItem("uid_new","0")}catch(e){}window[window._pokiUserGlobalName]&&(window[window._pokiUserGlobalName].is_new=!1)}();var a=JSON.stringify(o);try{sessionStorage.setItem(p,a)}catch(e){d(e,"updateSession-1")}window[window._pokiSessionGlobalName]=o;try{r(p,a)}catch(e){d(e,"updateSession-4")}}catch(e){d(e,"updateSession-2")}return o}function y(){try{return!g()}catch(e){return d(e,"isSessionExpired"),!0}}function S(){try{var e=g();if(!e)return;e.expire=Date.now()+18e5;var t=JSON.stringify(e);try{sessionStorage.setItem(p,t)}catch(e){}window[window._pokiSessionGlobalName]=e,r(p,t)}catch(e){d(e,"markSessionInteraction")}}window._pokiSessionGlobalName=window._pokiSessionGlobalName||"session"},function(e,t,n){var o;void 0===(o=function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function e(t){0===window.innerWidth||0===window.innerHeight?window.setTimeout((function(){e(t)}),500):t()}}.apply(t,[n,t]))||(e.exports=o)},function(e,t,n){(function(o){var i,a;i=[n,t,n(1),n(6)],void 0===(a=function(e,t,n,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.setupAdListeners=t.setupSdkGtmCommunication=t.setupSdkPlatformCommunication=void 0;var i=window.PARAMS,a=i.contentGameID,r=i.gameVersion,s=i.gameID;t.setupSdkPlatformCommunication=function(){window.addEventListener("message",(function(e){var t=document.getElementById("gameframe");e.source===t.contentWindow?function(e){e.data.type&&(void 0===e.data.content&&(e.data.content={}),e.data.content.pokifordevs={game_id:s,game_version_id:r,content_game_id:a}),window.parent.postMessage(e.data,"*")}(e):function(e,t){t.contentWindow&&(e.data.type&&void 0===e.data.content&&(e.data.content={}),t.contentWindow.postMessage(e.data,"*"))}(e,t)}))},t.setupSdkGtmCommunication=function(){window.addEventListener("message",(function(e){var t=e.data.type;if(t){var o=e.data.content||{};o.pokifordevs={game_id:s,game_version_id:r,content_game_id:a},n.pushEvent("sdk","message",{content:o,type:t,origin:"game"})}}))},t.setupAdListeners=function(){window.addEventListener("message",(function(e){if(e.data.type){var t=e.data.content,n=t.data;switch(t.event){case"pokiTrackingScreenCommercialBreak":case"pokiTrackingScreenRewardedBreak":o.displayAdInfo(!0),o.setStatus(o.ADSTATUS.PREPARING);break;case"pokiTrackingAdsStatusPrebidRequested":o.setStatus(o.ADSTATUS.LOADING);break;case"pokiTrackingAdsStatusStarted":o.setDuration(n.duration);break;case"pokiTrackingAdsStatusCompleted":case"pokiTrackingAdsStatusLimit":case"pokiTrackingAdsStatusError":o.displayAdInfo(!1);break;case"pokiTrackingAdsVideoProgress":o.setDurationProgress(n.currentTime)}}}))}}.apply(t,i))||(e.exports=a)}).call(this,n(0))},function(e,t,n){(function(o){var i;void 0===(i=function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.setStatus=t.setDuration=t.setDurationProgress=t.displayAdInfo=t.ADSTATUS=void 0;var n=o.PARAMS.localisations;t.ADSTATUS={LOADING:"loading",PREPARING:"preparing"};var i=document.querySelector("#adInfo"),a=i.querySelector(".status"),r=0;t.displayAdInfo=function(e){i.style.display=e?"flex":"none"},t.setDurationProgress=function(e){var t=r-e,o=Math.floor(t/60),i=String(Math.round(t%60)).padStart(2,"0");a.innerText=n.playingad+" "+o+":"+i},t.setDuration=function(e){r=e,t.setDurationProgress(0)},t.setStatus=function(e){switch(e){case t.ADSTATUS.PREPARING:a.innerText=n.preparing;break;case t.ADSTATUS.LOADING:a.innerText=n.loading}}}.apply(t,[n,t]))||(e.exports=i)}).call(this,n(0))},function(e,t,n){var o;void 0===(o=function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e){var t=document.createElement("a");return t.href=e,t.protocol+"//"+t.hostname+t.pathname}}.apply(t,[n,t]))||(e.exports=o)},function(e,t,n){var o;void 0===(o=function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=function(e){var t=document.createElement("a");return t.href=e,t.hostname}}.apply(t,[n,t]))||(e.exports=o)}]);
+		</script>
+
+		
+	</body>
+</html>

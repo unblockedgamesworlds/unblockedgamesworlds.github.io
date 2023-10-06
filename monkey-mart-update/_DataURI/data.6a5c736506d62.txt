@@ -1,0 +1,1 @@
+chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame/frame.js

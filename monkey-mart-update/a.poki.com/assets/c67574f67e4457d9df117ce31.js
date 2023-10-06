@@ -1,0 +1,1 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[6757],{6757:(_,e,o)=>{function a(_){document.cookie="poki_language_choice=".concat(_,"; domain=poki.com; path=/; max-age=7776000; samesite=lax")}o.d(e,{Z:()=>a})}}]);

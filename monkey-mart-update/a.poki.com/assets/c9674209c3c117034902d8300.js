@@ -1,0 +1,1 @@
+"use strict";(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[9674],{9674:(_,t,e)=>{e.d(t,{uf:()=>f});const n="undefined"!=typeof Intl?new Intl.NumberFormat:{format:_=>_};function f(_){return n.format(_)}}}]);
