@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="manifest" href="appmanifest.json" />
+    <title>Geometry Jump Game</title>
+    <style>
+      html, body {
+      min-height: 100%;
+      }
+      
+ * {
+      padding: 0;
+      margin: 0;
+    }
+    html, body {
+      
+      color: #fff;
+      overflow: hidden;
+      touch-action: none;
+      -ms-touch-action: none;
+    }
+    canvas {
+      touch-action-delay: none;
+      touch-action: none;
+      -ms-touch-action: none;
+    }
+ 
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #cc0052;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background: #ff0066;
+      }
+      @media (min-width: 568px) {
+      .name-item, .contact-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .contact-item .item {
+      width: calc(50% - 8px);
+      }
+      .name-item input {
+      width: calc(50% - 20px);
+      }
+      .contact-item input {
+      width: calc(100% - 12px);
+      }
+      }
+    </style>
+  </head>
+   <body style="background-color: #d86b86;">
+    <div >
+      <div>
+        
+         
+<div id="c2canvasdiv">
+  
+    <!-- The canvas the project will render to.  If you change its ID, don't forget to change the
+    ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
+    <canvas id="c2canvas" width="750" height="512">
+      <!-- This text is displayed if the visitor's browser does not support HTML5.
+      You can change it, but it is a good idea to link to a description of a browser
+      and provide some links to download some popular HTML5-compatible browsers. -->
+      
+    </canvas>
+ 
+  </div>
+
+
+
+        <div class="btn-block">
+          
+
+          <a class="btn btn-info" type="submit" href="https://games.1bestlinks.net/game/geometry-jump/" target="_blank" style="margin-top: 15px; width: 260px; height: 42px;"><img src="video-console.png"> Online Version</a>
+          
+         <a class="btn btn-danger" href="#" id="rate" class="rate" target="_blank" style="margin-top: 15px; width: 260px; height: 42px;" >⭐ Please Rate Us!</a>
+        </div>
+         
+      </div>
+    </div>
+    
+
+  
+    <!-- The runtime script.  You can rename it, but don't forget to rename the reference here as well.
+    This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
+  <script src="jquery-3.4.1.min.js"></script>
+
+<script src="c2runtime.js"></script>
+<script src="load.js"></script>
+     
+    <script src="rate.js"></script>
+  </body>
+</html>
