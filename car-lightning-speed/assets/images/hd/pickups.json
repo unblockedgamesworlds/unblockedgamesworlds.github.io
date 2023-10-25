@@ -1,0 +1,116 @@
+{"frames": {
+
+"collectibles_icon_lugnuts.png":
+{
+	"frame": {"x":201,"y":665,"w":228,"h":180},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":40,"w":228,"h":180},
+	"sourceSize": {"w":320,"h":240}
+},
+"collectibles_icon_pacage.png":
+{
+	"frame": {"x":2,"y":241,"w":252,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":28,"w":252,"h":196},
+	"sourceSize": {"w":320,"h":240}
+},
+"collectibles_icon_toolbox.png":
+{
+	"frame": {"x":295,"y":2,"w":276,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":8,"w":276,"h":226},
+	"sourceSize": {"w":320,"h":240}
+},
+"particle_car_dust1.png":
+{
+	"frame": {"x":851,"y":2,"w":40,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":42},
+	"sourceSize": {"w":40,"h":41}
+},
+"particle_car_dust2.png":
+{
+	"frame": {"x":894,"y":2,"w":40,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":42},
+	"sourceSize": {"w":40,"h":41}
+},
+"particle_car_dust3.png":
+{
+	"frame": {"x":937,"y":2,"w":40,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":42},
+	"sourceSize": {"w":40,"h":41}
+},
+"particle_car_dust4.png":
+{
+	"frame": {"x":980,"y":2,"w":40,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":42},
+	"sourceSize": {"w":40,"h":41}
+},
+"particle_sparks.png":
+{
+	"frame": {"x":257,"y":241,"w":18,"h":6},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":6},
+	"sourceSize": {"w":17,"h":5}
+},
+"speed_boost_01.png":
+{
+	"frame": {"x":574,"y":2,"w":274,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":274,"h":280},
+	"sourceSize": {"w":280,"h":280}
+},
+"splat_oil1.png":
+{
+	"frame": {"x":2,"y":2,"w":290,"h":236},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":290,"h":236},
+	"sourceSize": {"w":290,"h":240}
+},
+"splat_oil2.png":
+{
+	"frame": {"x":295,"y":231,"w":270,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":250},
+	"sourceSize": {"w":270,"h":250}
+},
+"splat_water1.png":
+{
+	"frame": {"x":2,"y":440,"w":250,"h":222},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":250,"h":222},
+	"sourceSize": {"w":250,"h":230}
+},
+"splat_water2.png":
+{
+	"frame": {"x":2,"y":665,"w":196,"h":206},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":196,"h":206},
+	"sourceSize": {"w":200,"h":210}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "pickups.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:084cfd84712b7d1bdba66aed76b37cc9:9ae0f13f6f268e26f2df6ae9319442a5:0b493ebb21a2f089d30c9be1399b2817$"
+}
+}

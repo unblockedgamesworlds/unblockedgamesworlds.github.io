@@ -1,0 +1,20 @@
+{"frames": {
+
+"ui_cutscene_live.png":
+{
+	"frame": {"x":1,"y":1,"w":909,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":909,"h":78},
+	"sourceSize": {"w":910,"h":80}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cutscene0.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":128},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:de2d7d20e56285253ae2a6d70121b945:20a0f3e94136d756845c965a9b033a72:a82f02783dead05770e64723440f2312$"
+}
+}

@@ -1,0 +1,356 @@
+{
+  "locale":     "en_US",
+  "r2l":        true,
+  "highscores": 71,
+  "webfont":    true,
+
+  "alphabet" : ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
+
+  "cars": [
+    {
+      "colors": {
+        "white":      {"cost": 0},
+        "red":        {"cost": 100},
+        "orange":     {"cost": 50},
+        "yellow":     {"cost": 50},
+        "limegreen":  {"cost": 100},
+        "darkgreen":  {"cost": 50},
+        "lightblue":  {"cost": 50},
+        "blue":       {"cost": 50},
+        "darkblue":   {"cost": 100},
+        "purple":     {"cost": 50},
+        "lightpink":  {"cost": 50},
+        "hotpink":    {"cost": 100},
+        "darkgrey":   {"cost": 50},
+        "black":      {"cost": 100},
+        "lightgrey":  {"cost": 50}
+      },
+
+      "decals": {
+        "decal1": {"cost": 250},
+        "decal2": {"cost": 250},
+        "decal3": {"cost": 250},
+        "decal4": {"cost": 250},
+        "decal5": {"cost": 250}
+      },
+
+      "engines": {
+        "speed": [100, 200, 500, 1000, 2000],
+        "boost": [100, 200, 500, 1000, 2000]
+      },
+
+      "kits": {
+        "kit1": {
+          "kit":  [100, 200, 500, 1000],
+          "tyre": [100, 200, 500, 1000]
+        },
+        "kit2": {
+          "kit":  [100, 200, 500, 1000],
+          "tyre": [100, 200, 500, 1000]
+        },
+        "kit3": {
+          "kit":  [100, 200, 500, 1000],
+          "tyre": [100, 200, 500, 1000]
+        },
+        "kit4": {
+          "kit": [100, 200, 500, 1000],
+          "tyre": [100, 200, 500, 1000]
+        },
+        "kit5": {
+          "kit": [100, 200, 500, 1000],
+          "tyre": [100, 200, 500, 1000]
+        }
+      }
+    },
+
+    {
+      "colors": {
+        "white":      {"cost": 0},
+        "red":        {"cost": 100},
+        "orange":     {"cost": 50},
+        "yellow":     {"cost": 50},
+        "limegreen":  {"cost": 100},
+        "darkgreen":  {"cost": 50},
+        "lightblue":  {"cost": 50},
+        "blue":       {"cost": 50},
+        "darkblue":   {"cost": 100},
+        "purple":     {"cost": 50},
+        "lightpink":  {"cost": 50},
+        "hotpink":    {"cost": 100},
+        "darkgrey":   {"cost": 50},
+        "black":      {"cost": 100},
+        "lightgrey":  {"cost": 50}
+      },
+
+      "decals": {
+        "decal1": {"cost": 250},
+        "decal2": {"cost": 250},
+        "decal3": {"cost": 250},
+        "decal4": {"cost": 250},
+        "decal5": {"cost": 250}
+      },
+
+      "engine": {
+        "speed": [100, 200, 500, 1000, 2000],
+        "boost": [100, 200, 500, 1000, 2000]
+      },
+
+      "kits": {
+        "kit1": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit2": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit3": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit4": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit5": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        }
+      }
+    },
+
+    {
+      "colors": {
+        "white":      {"cost": 0},
+        "red":        {"cost": 100},
+        "orange":     {"cost": 50},
+        "yellow":     {"cost": 50},
+        "limegreen":  {"cost": 100},
+        "darkgreen":  {"cost": 50},
+        "lightblue":  {"cost": 50},
+        "blue":       {"cost": 50},
+        "darkblue":   {"cost": 100},
+        "purple":     {"cost": 50},
+        "lightpink":  {"cost": 50},
+        "hotpink":    {"cost": 100},
+        "darkgrey":   {"cost": 50},
+        "black":      {"cost": 100},
+        "lightgrey":  {"cost": 50}
+      },
+
+      "decals": {
+        "decal1": {"cost": 250},
+        "decal2": {"cost": 250},
+        "decal3": {"cost": 250},
+        "decal4": {"cost": 250},
+        "decal5": {"cost": 250}
+      },
+
+      "engine": {
+        "speed": [100, 200, 500, 1000, 2000],
+        "boost": [100, 200, 500, 1000, 2000]
+      },
+
+      "kits": {
+        "kit1": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit2": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit3": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit4": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit5": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        }
+      }
+    },
+
+    {
+      "colors": {
+        "white":      {"cost": 0},
+        "red":        {"cost": 100},
+        "orange":     {"cost": 50},
+        "yellow":     {"cost": 50},
+        "limegreen":  {"cost": 100},
+        "darkgreen":  {"cost": 50},
+        "lightblue":  {"cost": 50},
+        "blue":       {"cost": 50},
+        "darkblue":   {"cost": 100},
+        "purple":     {"cost": 50},
+        "lightpink":  {"cost": 50},
+        "hotpink":    {"cost": 100},
+        "darkgrey":   {"cost": 50},
+        "black":      {"cost": 100},
+        "lightgrey":  {"cost": 50}
+      },
+
+      "decals": {
+        "decal1": {"cost": 250},
+        "decal2": {"cost": 250},
+        "decal3": {"cost": 250},
+        "decal4": {"cost": 250},
+        "decal5": {"cost": 250}
+      },
+
+      "engine": {
+        "speed": [100, 200, 500, 1000, 2000],
+        "boost": [100, 200, 500, 1000, 2000]
+      },
+
+      "kits": {
+        "kit1": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit2": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit3": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit4": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit5": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        }
+      }
+    },
+
+    {
+      "colors": {
+        "white":      {"cost": 0},
+        "red":        {"cost": 100},
+        "orange":     {"cost": 50},
+        "yellow":     {"cost": 50},
+        "limegreen":  {"cost": 100},
+        "darkgreen":  {"cost": 50},
+        "lightblue":  {"cost": 50},
+        "blue":       {"cost": 50},
+        "darkblue":   {"cost": 100},
+        "purple":     {"cost": 50},
+        "lightpink":  {"cost": 50},
+        "hotpink":    {"cost": 100},
+        "darkgrey":   {"cost": 50},
+        "black":      {"cost": 100},
+        "lightgrey":  {"cost": 50}
+      },
+
+      "decals": {
+        "decal1": {"cost": 250},
+        "decal2": {"cost": 250},
+        "decal3": {"cost": 250},
+        "decal4": {"cost": 250},
+        "decal5": {"cost": 250}
+      },
+
+      "engine": {
+        "speed": [100, 200, 500, 1000, 2000],
+        "boost": [100, 200, 500, 1000, 2000]
+      },
+
+      "kits": {
+        "kit1": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit2": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit3": {
+          "kit":  [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit4": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        },
+        "kit5": {
+          "kit": [100, 200, 500],
+          "tyre": [100, 200, 500]
+        }
+      }
+    }
+  ],
+
+  "pickups": {
+    "toolbox": {"value": 5},
+    "lugnuts": {"value": 10},
+    "package": {"value": 20}
+  },
+
+  "singles": {
+    "tutorial" : [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "usa": [
+      [100, 80, 60, 20],
+      [100, 80, 60, 20],
+      [100, 80, 60, 20]
+    ],
+    "italy": [
+      [100, 80, 60, 20],
+      [100, 80, 60, 20],
+      [100, 80, 60, 20]
+    ],
+    "germany": [
+      [100, 80, 60, 20],
+      [100, 80, 60, 20],
+      [100, 80, 60, 20]
+    ],
+    "japan": [
+      [100, 80, 60, 20],
+      [100, 80, 60, 20],
+      [100, 80, 60, 20]
+    ],
+    "brazil": [
+      [100, 80, 60, 20],
+      [100, 80, 60, 20],
+      [100, 80, 60, 20]
+    ]
+  },
+
+  "series": {
+    "beginner": [100, 80, 50, 20],
+    "world":    [150, 130, 100, 50],
+    "usa":      [150, 130, 100, 50],
+    "italy":    [150, 130, 100, 50],
+    "germany":  [150, 130, 100, 50],
+    "japan":    [150, 130, 100, 50],
+    "brazil":   [150, 130, 100, 50],
+    "advanced": [200, 150, 130, 60]
+  },
+
+  "codes" : [
+    {"code" : "5567", "reward" : 0, "model" : "", "name" : "", "value" : 1000},
+    {"code" : "2231", "reward" : 0, "model" : "", "name" : "", "value" : 1000},
+    {"code" : "1143", "reward" : 0, "model" : "", "name" : "", "value" : 1000},
+    {"code" : "3354", "reward" : 0, "model" : "", "name" : "", "value" : 3000},
+    {"code" : "6632", "reward" : 0, "model" : "", "name" : "", "value" : 5000}
+  ],
+
+  "bonus" : [500, 100, 50, 150, 200, 500, 100, 50, 150, 200],
+
+  "comms" : [
+    {"name" : "ui_comms3", "url" : "http://www.disney.co.uk"},
+    {"name" : "ui_splash_cars_logo", "url" : "http://www.disney.co.uk"},
+    {"name" : "ui_comms1", "url" : "http://www.disney.co.uk"}
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "loading" : {
+    "en_US" : "Loading"
+  },
+
+  "daily_bonus" : {
+    "en_US" : "Daily Bonus"
+  },
+  "daily_bonus_info" : {
+    "en_US" : "Spin the wheel to win!"
+  },
+
+  "reward_popup" : {
+    "en_US" : "Alright!"
+  },
+  "reward_message_coins" : {
+    "en_US" : "You unlocked [VALUE] coins."
+  },
+  "reward_message_decal" : {
+    "en_US" : "You unlocked a sticker."
+  },
+
+  "welcome" : {
+    "en_US" : "Hey there! You ready?"
+  },
+  "welcome_message" : {
+    "en_US" : "Welcome to the team! Get set to race!"
+  },
+
+  "name" : {
+    "en_US" : "Pick your name"
+  },
+  "name_helper" : {
+    "en_US" : "Pick a name with 3 letters."
+  },
+
+  "code_entry" : {
+    "en_US" : "Code Entry"
+  },
+  "code_error_title" : {
+    "en_US" : "Sorry"
+  },
+  "code_error_wrong" : {
+    "en_US" : "That code is wrong. Please try again."
+  },
+  "code_error_invalid" : {
+    "en_US" : "That code is not valid anymore."
+  },
+
+  "comms_screen" : {
+    "en_US" : "Billboard"
+  },
+
+  "garage" : {
+    "en_US" : "Garage"
+  },
+  "garage_helper" : {
+    "en_US" : "Use the arrows to choose your car. \nPress the green button to race!"
+  },
+  "garage_select" : {
+    "en_US" : "Select"
+  },
+
+  "garage_colors" : {
+    "en_US" : "Colours"
+  },
+  "garage_colors_helper" : {
+    "en_US" : "Time for a new paint job.\nWhat colour will you choose?"
+  },
+
+  "garage_stickers" : {
+    "en_US" : "Stickers"
+  },
+  "garage_stickers_helper" : {
+    "en_US" : "Let's make you look like a real racer.\nPick some stickers for your car!"
+  },
+
+  "garage_engines" : {
+    "en_US" : "Engine"
+  },
+  "garage_engines_helper" : {
+    "en_US" : "Make your car faster here! \nUpgrade your engine and boost!"
+  },
+
+  "garage_kits" : {
+    "en_US" : "Kits"
+  },
+  "garage_kits_helper" : {
+    "en_US" : "Choose the right kit for the race country. \nUpgrade it to go faster!"
+  },
+
+  "garage_pitstop" : {
+    "en_US" : "Pit Stop"
+  },
+  "garage_pitstop_usa" : {
+    "en_US" : "Try the Desert kit for this race!"
+  },
+  "garage_pitstop_italy" : {
+    "en_US" : "Try the Street kit for this race!"
+  },
+  "garage_pitstop_germany" : {
+    "en_US" : "Try the Aero kit for this race!"
+  },
+  "garage_pitstop_japan" : {
+    "en_US" : "Try the Neon kit for this race!"
+  },
+  "garage_pitstop_brazil" : {
+    "en_US" : "Try the Jungle kit for this race!"
+  },
+
+  "trophies" : {
+    "en_US" : "Trophies"
+  },
+
+  "achievements" : {
+    "en_US" : "Achievements"
+  },
+
+  "pause_helper" : {
+    "en_US" : "Pro mode too hard? \nRookie mode makes driving and boosting easier!"
+  },
+
+  "help" : {
+    "en_US" : "Help"
+  },
+  "help_garage1" : {
+    "en_US" : "Choose a car to race with."
+  },
+  "help_garage2" : {
+    "en_US" : "Decorate your car by changing the\ncolour and adding stickers."
+  },
+  "help_garage3" : {
+    "en_US" : "Upgrade your engine speed and\nyour boost speed."
+  },
+  "help_garage4" : {
+    "en_US" : "Get ready to race by adding kit parts\nand tyres to your car."
+  },
+  "help_garage5" : {
+    "en_US" : "When you are ready to race press the flag!"
+  },
+  "help_garage6" : {
+    "en_US" : "Click to change your driving settings."
+  },
+  "help_game1" : {
+    "en_US" : "Use the left and right buttons to move between lanes."
+  },
+  "help_game1b" : {
+    "en_US" : "Tap the left or right side of the screen to steer."
+  },
+  "help_game2" : {
+    "en_US" : "Collect the lightning bolts to fill boost!"
+  },
+  "help_game3" : {
+    "en_US" : "Collect toolboxes to trade for coins!"
+  },
+  "help_game4" : {
+    "en_US" : "Avoid hitting these. \nThey will slow you down!"
+  },
+  "help_game5" : {
+    "en_US" : "You can see how you're doing here."
+  },
+  "help_game6" : {
+    "en_US" : "This button activates the boost. \nIn Rookie mode, it's automatic! "
+  },
+  "help_game7" : {
+    "en_US" : "Here you can change you driving settings and pause the race."
+  },
+  "help_trophies1" : {
+    "en_US" : "This is where your trophies and medals are stored."
+  },
+  "help_achievements1" : {
+    "en_US" : "Take a look at your achievements!\nEach of these is worth coins."
+  },
+
+  "options" : {
+    "en_US" : "Options"
+  },
+  "options_difficulty" : {
+    "en_US" : "Difficulty"
+  },
+  "options_difficulty_rookie" : {
+    "en_US" : "Rookie"
+  },
+  "options_difficulty_pro" : {
+    "en_US" : "Pro"
+  },
+  "options_tilt" : {
+    "en_US" : "Tilt control"
+  },
+  "options_tilt_off" : {
+    "en_US" : "Off"
+  },
+  "options_tilt_on" : {
+    "en_US" : "On"
+  },
+  "options_helper" : {
+    "en_US" : "Pro mode too hard? \nRookie mode makes driving and boosting easier!"
+  },
+
+  "race_mode" : {
+    "en_US" : "Race Mode"
+  },
+  "race_mode_single" : {
+    "en_US" : "Single"
+  },
+  "race_mode_series" : {
+    "en_US" : "Career"
+  },
+
+  "single_race" : {
+    "en_US" : "Single Race"
+  },
+  "single_race_helper" : {
+    "en_US" : "Where shall we race? \nClick the arrows to choose."
+  },
+  "single_race_new" : {
+    "en_US" : "New"
+  },
+
+  "series_race" : {
+    "en_US" : "Career"
+  },
+  "series_race_helper" : {
+    "en_US" : "Pick a tournament to race in!\nWhy not start with Beginner?"
+  },
+
+  "game_announcer_boost_used" : {
+    "en_US" : "Woohoo look at [NAME] go!"
+  },
+  "game_announcer_off_track" : {
+    "en_US" : "[NAME] is in trouble off-track!"
+  },
+  "game_announcer_hits_obstacle" : {
+    "en_US" : "Ouch that has to hurt!"
+  },
+  "game_announcer_hits_puddle" : {
+    "en_US" : "Woah! Look's slippery out there!"
+  },
+  "game_announcer_first" : {
+    "en_US" : "[NAME] is in the lead!"
+  },
+  "game_announcer_overtake" : {
+    "en_US" : "Look at that move!"
+  },
+  "game_announcer_last" : {
+    "en_US" : "[NAME] has fallen behind"
+  },
+
+  "results" : {
+    "en_US" : "Results"
+  },
+  "results_helper" : {
+    "en_US" : "What a race! You came in [POSITION]!"
+  },
+
+  "leaderboard" : {
+    "en_US" : "Leaderboard"
+  },
+  "leaderboard_today" : {
+    "en_US" : "Today"
+  },
+  "leaderboard_week" : {
+    "en_US" : "This week"
+  },
+  "leaderboard_all" : {
+    "en_US" : "All time"
+  },
+
+  "country_usa" : {
+    "en_US" : "U.S.A"
+  },
+  "country_italy" : {
+    "en_US" : "Italy"
+  },
+  "country_germany" : {
+    "en_US" : "Germany"
+  },
+  "country_japan" : {
+    "en_US" : "Japan"
+  },
+  "country_brazil" : {
+    "en_US" : "Brazil"
+  },
+
+  "series_beginner" : {
+    "en_US" : "Beginner Cup"
+  },
+  "series_world" : {
+    "en_US" : "World Cup"
+  },
+  "series_usa" : {
+    "en_US" : "U.S.A Cup"
+  },
+  "series_italy" : {
+    "en_US" : "Italy Cup"
+  },
+  "series_germany" : {
+    "en_US" : "Germany Cup"
+  },
+  "series_japan" : {
+    "en_US" : "Japan Cup"
+  },
+  "series_brazil" : {
+    "en_US" : "Brazil Cup"
+  },
+  "series_advanced" : {
+    "en_US" : "Advanced Cup"
+  },
+
+  "purchase_confirm" : {
+    "en_US" : "Are you sure?"
+  },
+  "purchase_confirm_info" : {
+    "en_US" : "Are you sure?"
+  },
+
+  "achievement1" : {
+    "name" : {
+      "en_US" : "1st Race"
+    },
+    "description" : {
+      "en_US" : "Complete your first race"
+    }
+  },
+  "achievement2" : {
+    "name" : {
+      "en_US" : "1st Win"
+    },
+    "description" : {
+      "en_US" : "Win your first race"
+    }
+  },
+  "achievement3" : {
+    "name" : {
+      "en_US" : "Easy Street"
+    },
+    "description" : {
+      "en_US" : "Beginner Cup Winner"
+    }
+  },
+  "achievement4" : {
+    "name" : {
+      "en_US" : "Worldwide"
+    },
+    "description" : {
+      "en_US" : "World Cup Winner"
+    }
+  },
+  "achievement5" : {
+    "name" : {
+      "en_US" : "Speed Champ"
+    },
+    "description" : {
+      "en_US" : "Advanced Cup Winner"
+    }
+  },
+  "achievement6" : {
+    "name" : {
+      "en_US" : "All-American"
+    },
+    "description" : {
+      "en_US" : "U.S.A. Cup Winner"
+    }
+  },
+  "achievement7" : {
+    "name" : {
+      "en_US" : "Riviera Racer"
+    },
+    "description" : {
+      "en_US" : "Italy Cup Winner"
+    }
+  },
+  "achievement8" : {
+    "name" : {
+      "en_US" : "Peak Performer"
+    },
+    "description" : {
+      "en_US" : "Germany Cup Winner"
+    }
+  },
+  "achievement9" : {
+    "name" : {
+      "en_US" : "Neon Nitro"
+    },
+    "description" : {
+      "en_US" : "Japan Cup Winner"
+    }
+  },
+  "achievement10" : {
+    "name" : {
+      "en_US" : "Samba Speedster"
+    },
+    "description" : {
+      "en_US" : "Brazil Cup Winner"
+    }
+  },
+  "achievement11" : {
+    "name" : {
+      "en_US" : "Little Boss"
+    },
+    "description" : {
+      "en_US" : "Win all the races in one country"
+    }
+  },
+  "achievement12" : {
+    "name" : {
+      "en_US" : "Big Boss"
+    },
+    "description" : {
+      "en_US" : "Win all races in all countries"
+    }
+  },
+  "achievement13" : {
+    "name" : {
+      "en_US" : "Explorer"
+    },
+    "description" : {
+      "en_US" : "Race on all the tracks"
+    }
+  },
+  "achievement14" : {
+    "name" : {
+      "en_US" : "Chameleon"
+    },
+    "description" : {
+      "en_US" : "Race at least once with all car types"
+    }
+  },
+  "achievement15" : {
+    "name" : {
+      "en_US" : "King Chameleon"
+    },
+    "description" : {
+      "en_US" : "Win a Cup in each car"
+    }
+  },
+  "achievement16" : {
+    "name" : {
+      "en_US" : "Painter"
+    },
+    "description" : {
+      "en_US" : "Change your car colour"
+    }
+  },
+  "achievement17" : {
+    "name" : {
+      "en_US" : "Stick to it"
+    },
+    "description" : {
+      "en_US" : "Apply a sticker"
+    }
+  },
+  "achievement18" : {
+    "name" : {
+      "en_US" : "Sharp Dresser"
+    },
+    "description" : {
+      "en_US" : "Apply 5 stickers"
+    }
+  },
+  "achievement19" : {
+    "name" : {
+      "en_US" : "Little Piggy"
+    },
+    "description" : {
+      "en_US" : "Collect 150 coins in race"
+    }
+  },
+  "achievement20" : {
+    "name" : {
+      "en_US" : "Piggy Bank"
+    },
+    "description" : {
+      "en_US" : "Earn 1000 coins in total"
+    }
+  },
+  "achievement21" : {
+    "name" : {
+      "en_US" : "Big Spender"
+    },
+    "description" : {
+      "en_US" : "Spend 2000 coins"
+    }
+  },
+  "achievement22" : {
+    "name" : {
+      "en_US" : "Squeaky Clean"
+    },
+    "description" : {
+      "en_US" : "Win a clean race"
+    }
+  },
+
+  "color" : {
+    "en_US" : "Colour"
+  },
+  "color_white" : {
+    "en_US" : "White"
+  },
+  "color_red" : {
+    "en_US" : "Red"
+  },
+  "color_orange" : {
+    "en_US" : "Orange"
+  },
+  "color_yellow" : {
+    "en_US" : "Yellow"
+  },
+  "color_limegreen" : {
+    "en_US" : "Lime green"
+  },
+  "color_darkgreen" : {
+    "en_US" : "Dark green"
+  },
+  "color_lightblue" : {
+    "en_US" : "Light blue"
+  },
+  "color_blue" : {
+    "en_US" : "Blue"
+  },
+  "color_darkblue" : {
+    "en_US" : "Dark blue"
+  },
+  "color_purple" : {
+    "en_US" : "Purple"
+  },
+  "color_lightpink" : {
+    "en_US" : "Light pink"
+  },
+  "color_hotpink" : {
+    "en_US" : "Hot pink"
+  },
+  "color_barrelgrey" : {
+    "en_US" : "Barrel grey"
+  },
+  "color_black" : {
+    "en_US" : "Black"
+  },
+  "color_lightgrey" : {
+    "en_US" : "Light grey"
+  },
+
+  "decal" : {
+    "en_US" : "Sticker"
+  },
+  "decal1" : {
+    "en_US" : "Theme 1"
+  },
+  "decal2" : {
+    "en_US" : "Theme 2"
+  },
+  "decal3" : {
+    "en_US" : "Theme 3"
+  },
+  "decal4" : {
+    "en_US" : "Theme 42"
+  },
+  "decal5" : {
+    "en_US" : "Theme 5"
+  },
+
+  "engine" : {
+    "en_US" : "Engine"
+  },
+  "engine_speed_upgrade" : {
+    "en_US" : "Speed upgrade"
+  },
+  "engine_boost_upgrade" : {
+    "en_US" : "Boost upgrade"
+  },
+
+  "kit_upgrade" : {
+    "en_US" : "Kit upgrade"
+  },
+  "kit_tyre_upgrade" : {
+    "en_US" : "Tyre upgrade"
+  },
+  "kit_urban" : {
+    "en_US" : "Neon kit"
+  },
+  "kit_jungle" : {
+    "en_US" : "Jungle kit"
+  },
+  "kit_desert" : {
+    "en_US" : "Desert kit"
+  },
+  "kit_street" : {
+    "en_US" : "Street kit"
+  },
+  "kit_aerodynamic" : {
+    "en_US" : "Aero kit"
+  },
+
+  "tutorial_steer" : {
+    "en_US" : "Use the left and right buttons to move\nbetween lanes."
+  },
+  "tutorial_steer_mobile" : {
+    "en_US" : "Tap the left or right side of the screen to steer."
+  },
+  "tutorial_brake" : {
+    "en_US" : "Press the down key to break."
+  },
+  "tutorial_powerups" : {
+    "en_US" : "Collect the lightning bolts to fill boost!"
+  },
+  "tutorial_pickups" : {
+    "en_US" : "Collect toolboxes to trade for coins!"
+  },
+  "tutorial_boost" : {
+    "en_US" : "Press 'ENTER' Key or click here to use your boost!"
+  },
+  "tutorial_boost_mobile" : {
+    "en_US" : "Press this button to activate the boost in\nPro driving mode. In Rookie, it's automatic!"
+  },
+  "tutorial_obstacles" : {
+    "en_US" : "Avoid hitting these. They will\nslow you down and lower your boost."
+  },
+  "tutorial_hud" : {
+    "en_US" : "You can see how you're doing here."
+  },
+  "tutorial_end" : {
+    "en_US" : "Now you are ready to race!"
+  },
+
+  "garage_photo" : {
+    "en_US" : "Photo saved!"
+  },
+
+  "cutscene_announcer_single_race_usa" : {
+    "en_US" : "Welcome to the U.S.A.! It's [NAME1] against\n[NAME2]. What a showdown!"
+  },
+  "cutscene_announcer_single_race_italy" : {
+    "en_US" : "Welcome to Italy! It's [NAME1] against\n[NAME2]. What a showdown!"
+  },
+  "cutscene_announcer_single_race_germany" : {
+    "en_US" : "Welcome to Germany! It's [NAME1] against\n[NAME2]. What a showdown!"
+  },
+  "cutscene_announcer_single_race_japan" : {
+    "en_US" : "Welcome to Japan! It's [NAME1] against\n[NAME2]. What a showdown!"
+  },
+  "cutscene_announcer_single_race_brazil" : {
+    "en_US" : "Welcome to Brazil! It's [NAME1] against\n[NAME2]. What a showdown!"
+  },
+  "cutscene_announcer_first_race_begineer" : {
+    "en_US" : "It's the Beginner Cup! \n[NAME1] faces [NAME2] in this World Tour!"
+  },
+  "cutscene_announcer_first_race_world" : {
+    "en_US" : "It's the World Cup! \n[NAME1] faces [NAME2] in this World Tour!"
+  },
+  "cutscene_announcer_first_race_usa" : {
+    "en_US" : "It's the U.S.A. Cup! \n[NAME1] faces [NAME2] in a desert challenge!"
+  },
+  "cutscene_announcer_first_race_italy" : {
+    "en_US" : "It's the Italian Cup! \n[NAME1] faces [NAME2] in Porto Corsa!"
+  },
+  "cutscene_announcer_first_race_germany" : {
+    "en_US" : "It's the German Cup! \n[NAME1] faces [NAME2] in these legendary woods!"
+  },
+  "cutscene_announcer_first_race_japan" : {
+    "en_US" : "It's the Japanese Cup! \n[NAME1] faces [NAME2] in downtown Tokyo!"
+  },
+  "cutscene_announcer_first_race_brazil" : {
+    "en_US" : "It's the Brazilian Cup! \n[NAME1] faces [NAME2] in this jungle run!"
+  },
+  "cutscene_announcer_first_race_advanced" : {
+    "en_US" : "It's the Advanced Cup! \n[NAME1] faces [NAME2]  in this World Tour!"
+  },
+  "cutscene_announcer_last_race_begineer" : {
+    "en_US" : "It's the Beginner Cup and it's high stakes \nfor [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_last_race_world" : {
+    "en_US" : "It's the World Cup and it's high stakes \nfor both [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_last_race_usa" : {
+    "en_US" : "It's the U.S.A. Cup and it's high stakes \nfor both [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_last_race_italy" : {
+    "en_US" : "It's the Italian Cup and it's high stakes \nfor both [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_last_race_germany" : {
+    "en_US" : "It's the German Cup and it's high stakes \nfor both [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_last_race_japan" : {
+    "en_US" : "It's the Japanese Cup and it's high stakes \nfor both [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_last_race_brazil" : {
+    "en_US" : "It's the Brazilian Cup and it's high stakes \nfor both [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_last_race_advanced" : {
+    "en_US" : "It's the Advanced Cup and it's high stakes \nfor both [NAME1] and [NAME2]."
+  },
+  "cutscene_announcer_next_race_begineer" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_announcer_next_race_world" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_announcer_next_race_usa" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_announcer_next_race_italy" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_announcer_next_race_germany" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_announcer_next_race_japan" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_announcer_next_race_brazil" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_announcer_next_race_advanced" : {
+    "en_US" : "Time for the next race! \n[NAME1] and [NAME2] are neck and neck! "
+  },
+  "cutscene_host_usa" : {
+    "en_US" : "Lightning McQueen"
+  },
+  "cutscene_host_italy" : {
+    "en_US" : "Francesco Bernoulli"
+  },
+  "cutscene_host_germany" : {
+    "en_US" : "Max Schnell"
+  },
+  "cutscene_host_japan" : {
+    "en_US" : "Shu Todoroki"
+  },
+  "cutscene_host_brazil" : {
+    "en_US" : "Carla Velosa"
+  },
+
+  "ordinal_number1" : {
+    "en_US" : "1st"
+  },
+  "ordinal_number2" : {
+    "en_US" : "2nd"
+  },
+  "ordinal_number3" : {
+    "en_US" : "3rd"
+  },
+  "ordinal_number4" : {
+    "en_US" : "4th"
+  },
+  "ordinal_number5" : {
+    "en_US" : "5th"
+  },
+  "ordinal_number6" : {
+    "en_US" : "6th"
+  },
+  "ordinal_number7" : {
+    "en_US" : "7th"
+  },
+  "ordinal_number8" : {
+    "en_US" : "8th"
+  },
+  "ordinal_number9" : {
+    "en_US" : "9th"
+  }
+}

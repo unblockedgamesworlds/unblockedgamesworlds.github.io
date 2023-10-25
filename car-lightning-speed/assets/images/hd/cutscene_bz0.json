@@ -1,0 +1,20 @@
+{"frames": {
+
+"ui_cutscene_car_bz.png":
+{
+	"frame": {"x":1,"y":1,"w":540,"h":203},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":43,"w":540,"h":203},
+	"sourceSize": {"w":658,"h":308}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cutscene_bz0.png",
+	"format": "RGBA8888",
+	"size": {"w":542,"h":206},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:ad0ccf5e3f3ef9c5e322d0edf89e89f5:a27b899878dd41a570edd8f38b34e14a:b95fe039bd32363b74a146f27c2e3c2f$"
+}
+}

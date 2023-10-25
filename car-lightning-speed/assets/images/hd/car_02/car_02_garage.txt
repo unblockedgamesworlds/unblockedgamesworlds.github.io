@@ -1,0 +1,195 @@
+
+car_02_garage.png
+size: 2048,1032
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+car_02_garage_body_00
+  rotate: false
+  xy: 2, 2
+  size: 512, 278
+  orig: 512, 278
+  offset: 0, 0
+  index: -1
+car_02_garage_bodymask_00
+  rotate: false
+  xy: 516, 2
+  size: 512, 278
+  orig: 512, 278
+  offset: 0, 0
+  index: -1
+car_02_garage_bodysheen_00
+  rotate: false
+  xy: 1030, 2
+  size: 512, 278
+  orig: 512, 278
+  offset: 0, 0
+  index: -1
+car_02_garage_bodyxarch_00
+  rotate: false
+  xy: 1544, 2
+  size: 217, 141
+  orig: 217, 141
+  offset: 0, 0
+  index: -1
+car_02_garage_decal_00
+  rotate: false
+  xy: 2, 282
+  size: 512, 278
+  orig: 512, 278
+  offset: 0, 0
+  index: -1
+car_02_garage_eyebg_00
+  rotate: false
+  xy: 516, 282
+  size: 512, 278
+  orig: 512, 278
+  offset: 0, 0
+  index: -1
+car_02_garage_eyesblink_00
+  rotate: false
+  xy: 1030, 282
+  size: 512, 278
+  orig: 512, 278
+  offset: 0, 0
+  index: -1
+car_02_garage_eyeslid_00
+  rotate: false
+  xy: 2, 562
+  size: 512, 278
+  orig: 512, 278
+  offset: 0, 0
+  index: -1
+car_02_garage_pupils_00
+  rotate: false
+  xy: 516, 562
+  size: 90, 32
+  orig: 90, 32
+  offset: 0, 0
+  index: -1
+car_02_garage_shadow_00
+  rotate: false
+  xy: 608, 562
+  size: 539, 62
+  orig: 539, 62
+  offset: 0, 0
+  index: -1
+car_02_garage_specialitem_00
+  rotate: false
+  xy: 1149, 562
+  size: 186, 56
+  orig: 186, 56
+  offset: 0, 0
+  index: -1
+car_02_garage_specialitem_01
+  rotate: false
+  xy: 1337, 562
+  size: 118, 63
+  orig: 118, 63
+  offset: 0, 0
+  index: -1
+car_02_garage_specialitem_02
+  rotate: false
+  xy: 1457, 562
+  size: 430, 89
+  orig: 430, 89
+  offset: 0, 0
+  index: -1
+car_02_garage_specialitem_03
+  rotate: false
+  xy: 2, 842
+  size: 297, 92
+  orig: 297, 92
+  offset: 0, 0
+  index: -1
+car_02_garage_specialitem_04
+  rotate: false
+  xy: 301, 842
+  size: 150, 30
+  orig: 150, 30
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel2_00
+  rotate: false
+  xy: 453, 842
+  size: 166, 187
+  orig: 166, 187
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel2_01
+  rotate: false
+  xy: 621, 842
+  size: 166, 187
+  orig: 166, 187
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel2_02
+  rotate: false
+  xy: 789, 842
+  size: 95, 134
+  orig: 95, 134
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel2_03
+  rotate: false
+  xy: 886, 842
+  size: 95, 134
+  orig: 95, 134
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel3_00
+  rotate: false
+  xy: 983, 842
+  size: 166, 187
+  orig: 166, 187
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel3_01
+  rotate: false
+  xy: 1151, 842
+  size: 166, 187
+  orig: 166, 187
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel3_02
+  rotate: false
+  xy: 1319, 842
+  size: 95, 134
+  orig: 95, 134
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel3_03
+  rotate: false
+  xy: 1416, 842
+  size: 95, 134
+  orig: 95, 134
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel_00
+  rotate: false
+  xy: 1513, 842
+  size: 166, 187
+  orig: 166, 187
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel_01
+  rotate: false
+  xy: 1681, 842
+  size: 166, 187
+  orig: 166, 187
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel_02
+  rotate: false
+  xy: 1849, 842
+  size: 95, 134
+  orig: 95, 134
+  offset: 0, 0
+  index: -1
+car_02_garage_wheel_03
+  rotate: false
+  xy: 1946, 842
+  size: 95, 134
+  orig: 95, 134
+  offset: 0, 0
+  index: -1

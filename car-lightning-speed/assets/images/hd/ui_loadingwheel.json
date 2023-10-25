@@ -1,0 +1,20 @@
+{"frames": {
+
+"ui_coin_wheel.png":
+{
+	"frame": {"x":2,"y":2,"w":416,"h":416},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":416,"h":416},
+	"sourceSize": {"w":420,"h":420}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui_loadingwheel.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:f2e46ae581685722b3cf1f48df9f994f:5214a1f38b0ebc357c69f5759aae0c01:1baa7ef6714a87994c45b46b65dd2e53$"
+}
+}

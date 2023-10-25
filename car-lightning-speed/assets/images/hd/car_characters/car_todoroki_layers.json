@@ -1,0 +1,124 @@
+{"frames": {
+
+"car_todoroki_body_00.png":
+{
+	"frame": {"x":2,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_todoroki_body_01.png":
+{
+	"frame": {"x":364,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_todoroki_body_02.png":
+{
+	"frame": {"x":726,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_todoroki_exhaust_02.png":
+{
+	"frame": {"x":1088,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_todoroki_shadow.png":
+{
+	"frame": {"x":2,"y":284,"w":360,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":108},
+	"sourceSize": {"w":360,"h":108}
+},
+"car_todoroki_spoiler_02.png":
+{
+	"frame": {"x":364,"y":284,"w":360,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":142},
+	"sourceSize": {"w":360,"h":142}
+},
+"car_todoroki_wheels_front_0.png":
+{
+	"frame": {"x":726,"y":284,"w":72,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":100},
+	"sourceSize": {"w":72,"h":100}
+},
+"car_todoroki_wheels_front_1.png":
+{
+	"frame": {"x":800,"y":284,"w":72,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":100},
+	"sourceSize": {"w":72,"h":100}
+},
+"car_todoroki_wheels_front_2.png":
+{
+	"frame": {"x":874,"y":284,"w":72,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":100},
+	"sourceSize": {"w":72,"h":100}
+},
+"car_todoroki_wheels_front_3.png":
+{
+	"frame": {"x":948,"y":284,"w":72,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":100},
+	"sourceSize": {"w":72,"h":100}
+},
+"car_todoroki_wheels_rear_0.png":
+{
+	"frame": {"x":1022,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+},
+"car_todoroki_wheels_rear_1.png":
+{
+	"frame": {"x":1120,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+},
+"car_todoroki_wheels_rear_2.png":
+{
+	"frame": {"x":1218,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+},
+"car_todoroki_wheels_rear_3.png":
+{
+	"frame": {"x":1316,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "car_todoroki_layers.png",
+	"format": "RGBA8888",
+	"size": {"w":1450,"h":428},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:aaf4ea31ca34de7f758ce51224a2a25d:aa72b18dfe974171525355b029330591:e3ef32fa57bea9644a518802a79a01ed$"
+}
+}

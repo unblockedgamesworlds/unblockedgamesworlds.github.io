@@ -1,0 +1,124 @@
+{"frames": {
+
+"ui_btn_unlock_delete_down.png":
+{
+	"frame": {"x":1,"y":791,"w":150,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":150},
+	"sourceSize": {"w":150,"h":150}
+},
+"ui_btn_unlock_delete_over.png":
+{
+	"frame": {"x":547,"y":1,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":11,"w":128,"h":128},
+	"sourceSize": {"w":150,"h":150}
+},
+"ui_btn_unlock_delete_up.png":
+{
+	"frame": {"x":676,"y":1,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":11,"w":128,"h":128},
+	"sourceSize": {"w":150,"h":150}
+},
+"ui_btn_unlock_enter_down.png":
+{
+	"frame": {"x":1,"y":520,"w":149,"h":270},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":270},
+	"sourceSize": {"w":150,"h":270}
+},
+"ui_btn_unlock_enter_down_innactive.png":
+{
+	"frame": {"x":151,"y":520,"w":149,"h":270},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":270},
+	"sourceSize": {"w":150,"h":270}
+},
+"ui_btn_unlock_enter_over.png":
+{
+	"frame": {"x":301,"y":520,"w":121,"h":242},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":121,"h":242},
+	"sourceSize": {"w":150,"h":270}
+},
+"ui_btn_unlock_enter_over_innactive.png":
+{
+	"frame": {"x":303,"y":763,"w":121,"h":242},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":121,"h":242},
+	"sourceSize": {"w":150,"h":270}
+},
+"ui_btn_unlock_enter_up.png":
+{
+	"frame": {"x":423,"y":520,"w":121,"h":242},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":121,"h":242},
+	"sourceSize": {"w":150,"h":270}
+},
+"ui_btn_unlock_enter_up_innactive.png":
+{
+	"frame": {"x":425,"y":763,"w":121,"h":242},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":121,"h":242},
+	"sourceSize": {"w":150,"h":270}
+},
+"ui_btn_unlock_number_down.png":
+{
+	"frame": {"x":152,"y":791,"w":150,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":150},
+	"sourceSize": {"w":150,"h":150}
+},
+"ui_btn_unlock_number_over.png":
+{
+	"frame": {"x":805,"y":1,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":11,"w":128,"h":128},
+	"sourceSize": {"w":150,"h":150}
+},
+"ui_btn_unlock_number_up.png":
+{
+	"frame": {"x":542,"y":130,"w":128,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":11,"w":128,"h":128},
+	"sourceSize": {"w":150,"h":150}
+},
+"ui_icon_delete.png":
+{
+	"frame": {"x":1,"y":942,"w":81,"h":67},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":11,"w":81,"h":67},
+	"sourceSize": {"w":90,"h":90}
+},
+"ui_unlock_device_bg.png":
+{
+	"frame": {"x":1,"y":1,"w":540,"h":518},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":540,"h":518},
+	"sourceSize": {"w":540,"h":520}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui_unlockdevice.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:f9d4c78c05566a6049609a0ac612ef16:a6813b503be66a0f3cdb6a5a5bf86266:c87cee180985fec137a902fb57f0ce60$"
+}
+}

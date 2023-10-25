@@ -1,0 +1,212 @@
+{"frames": {
+
+"car_00_body_00.png":
+{
+	"frame": {"x":2,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_body_01.png":
+{
+	"frame": {"x":364,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_body_02.png":
+{
+	"frame": {"x":726,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_exhaust_02.png":
+{
+	"frame": {"x":1088,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_mask_00.png":
+{
+	"frame": {"x":1450,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_mask_01.png":
+{
+	"frame": {"x":2,"y":284,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_mask_02.png":
+{
+	"frame": {"x":364,"y":284,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_maskspoiler_02.png":
+{
+	"frame": {"x":726,"y":284,"w":360,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":142},
+	"sourceSize": {"w":360,"h":142}
+},
+"car_00_shadow.png":
+{
+	"frame": {"x":1088,"y":284,"w":360,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":108},
+	"sourceSize": {"w":360,"h":108}
+},
+"car_00_shine_00.png":
+{
+	"frame": {"x":1450,"y":284,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_shine_01.png":
+{
+	"frame": {"x":2,"y":566,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_shine_02.png":
+{
+	"frame": {"x":364,"y":566,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_specialkit_00.png":
+{
+	"frame": {"x":726,"y":566,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_specialkit_01.png":
+{
+	"frame": {"x":1088,"y":566,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_specialkit_02.png":
+{
+	"frame": {"x":1450,"y":566,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_specialkit_03.png":
+{
+	"frame": {"x":1088,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_spoiler_02.png":
+{
+	"frame": {"x":2,"y":848,"w":360,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":142},
+	"sourceSize": {"w":360,"h":142}
+},
+"car_00_wheels_front_0.png":
+{
+	"frame": {"x":364,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+},
+"car_00_wheels_front_1.png":
+{
+	"frame": {"x":420,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+},
+"car_00_wheels_front_2.png":
+{
+	"frame": {"x":476,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+},
+"car_00_wheels_front_3.png":
+{
+	"frame": {"x":532,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+},
+"car_00_wheels_rear_0.png":
+{
+	"frame": {"x":364,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+},
+"car_00_wheels_rear_1.png":
+{
+	"frame": {"x":420,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+},
+"car_00_wheels_rear_2.png":
+{
+	"frame": {"x":476,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+},
+"car_00_wheels_rear_3.png":
+{
+	"frame": {"x":532,"y":848,"w":54,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":100},
+	"sourceSize": {"w":54,"h":100}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "car_00_layers.png",
+	"format": "RGBA8888",
+	"size": {"w":1812,"h":992},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1eed0713d8f4388163238d7277de1368:58e2fd53d3f1bfa437c65447d34bb86e:a6aad58d4084a537c6574db0cb4a03ae$"
+}
+}

@@ -1,0 +1,28 @@
+{"frames": {
+
+"ui_fortune_wheel.png":
+{
+	"frame": {"x":1,"y":1,"w":482,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":482,"h":482},
+	"sourceSize": {"w":490,"h":490}
+},
+"ui_fortune_wheel_arrow.png":
+{
+	"frame": {"x":1,"y":484,"w":123,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":9,"w":123,"h":102},
+	"sourceSize": {"w":130,"h":120}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui_bonuswheel.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:7e5dd53478adf42eae7e6dd61da3ab14:16c37afab9930e39f4f2df58ea5f616c:972015b23ef343d5fd6f024bed0ee7d6$"
+}
+}

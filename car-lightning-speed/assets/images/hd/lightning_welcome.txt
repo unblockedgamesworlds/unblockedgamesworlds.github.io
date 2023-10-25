@@ -1,0 +1,46 @@
+lightning_welcome.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+car_intro lightning_body
+  rotate: false
+  xy: 2, 2
+  size: 461, 257
+  orig: 461, 257
+  offset: 0, 0
+  index: -1
+car_intro lightning_bottom
+  rotate: false
+  xy: 465, 2
+  size: 518, 200
+  orig: 518, 200
+  offset: 0, 0
+  index: -1
+car_intro lightning_eyelids_bottom
+  rotate: false
+  xy: 985, 2
+  size: 152, 19
+  orig: 152, 19
+  offset: 0, 0
+  index: -1
+car_intro lightning_eyelids_closed
+  rotate: false
+  xy: 1139, 2
+  size: 233, 69
+  orig: 233, 69
+  offset: 0, 0
+  index: -1
+car_intro lightning_eyelids_open
+  rotate: false
+  xy: 1374, 2
+  size: 204, 32
+  orig: 204, 32
+  offset: 0, 0
+  index: -1
+car_intro lightning_eyes
+  rotate: false
+  xy: 1580, 2
+  size: 92, 31
+  orig: 92, 31
+  offset: 0, 0
+  index: -1

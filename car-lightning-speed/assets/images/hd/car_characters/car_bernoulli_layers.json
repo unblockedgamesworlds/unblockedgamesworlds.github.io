@@ -1,0 +1,124 @@
+{"frames": {
+
+"car_bernoulli_body_00.png":
+{
+	"frame": {"x":2,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_bernoulli_body_01.png":
+{
+	"frame": {"x":364,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_bernoulli_body_02.png":
+{
+	"frame": {"x":726,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_bernoulli_exhaust_02.png":
+{
+	"frame": {"x":1088,"y":2,"w":360,"h":280},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":280},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_bernoulli_shadow.png":
+{
+	"frame": {"x":2,"y":284,"w":360,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":108},
+	"sourceSize": {"w":360,"h":108}
+},
+"car_bernoulli_spoiler_02.png":
+{
+	"frame": {"x":364,"y":284,"w":360,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":142},
+	"sourceSize": {"w":360,"h":142}
+},
+"car_bernoulli_wheels_front_0.png":
+{
+	"frame": {"x":726,"y":284,"w":78,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":100},
+	"sourceSize": {"w":78,"h":100}
+},
+"car_bernoulli_wheels_front_1.png":
+{
+	"frame": {"x":806,"y":284,"w":78,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":100},
+	"sourceSize": {"w":78,"h":100}
+},
+"car_bernoulli_wheels_front_2.png":
+{
+	"frame": {"x":886,"y":284,"w":78,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":100},
+	"sourceSize": {"w":78,"h":100}
+},
+"car_bernoulli_wheels_front_3.png":
+{
+	"frame": {"x":966,"y":284,"w":78,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":78,"h":100},
+	"sourceSize": {"w":78,"h":100}
+},
+"car_bernoulli_wheels_rear_0.png":
+{
+	"frame": {"x":1046,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+},
+"car_bernoulli_wheels_rear_1.png":
+{
+	"frame": {"x":1144,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+},
+"car_bernoulli_wheels_rear_2.png":
+{
+	"frame": {"x":1242,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+},
+"car_bernoulli_wheels_rear_3.png":
+{
+	"frame": {"x":1340,"y":284,"w":96,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":96,"h":124},
+	"sourceSize": {"w":96,"h":124}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "car_bernoulli_layers.png",
+	"format": "RGBA8888",
+	"size": {"w":1450,"h":428},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:48687a44eaa92946089105f8c13d82a6:01afe9540016b78e66b1f43349298dc6:318921be6718095e2c24385576119bce$"
+}
+}

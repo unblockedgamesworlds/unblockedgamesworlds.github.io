@@ -1,0 +1,36 @@
+{"frames": {
+
+"car_00_decal_01_00.png":
+{
+	"frame": {"x":2,"y":2,"w":288,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":100,"w":288,"h":130},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_decal_01_01.png":
+{
+	"frame": {"x":292,"y":2,"w":258,"h":230},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":2,"w":258,"h":230},
+	"sourceSize": {"w":360,"h":280}
+},
+"car_00_decal_01_02.png":
+{
+	"frame": {"x":552,"y":2,"w":250,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":102,"w":250,"h":160},
+	"sourceSize": {"w":360,"h":280}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "car_00_decal_01.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a955535999112fde64664a75e6c33ca2:4f28a17c6f8606f33a5bce56a9eee60f:a7685d93d1a78a28773eeec860e2c6ff$"
+}
+}

@@ -1,0 +1,20 @@
+{"frames": {
+
+"ui_comms_screen.png":
+{
+	"frame": {"x":1,"y":1,"w":774,"h":525},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":8,"w":774,"h":525},
+	"sourceSize": {"w":800,"h":540}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ui_comms.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:a18d3f4ff80360aab93e0d998a575c9d:6d0f813615682d6a381723f372454e49:b79be76cb8ba62b87d2580e9dd30d5dc$"
+}
+}
