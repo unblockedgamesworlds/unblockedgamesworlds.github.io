@@ -1,0 +1,26 @@
+{
+ 
+ "manifest_version": 3,
+ "name":  "__MSG_appName__",
+ "description":  "__MSG_appDesc__",
+ "version":  "1.0.1",
+ "homepage_url": "https://geometrydash.ee/",
+ "offline_enabled": true,  
+
+ "icons": {
+ "16":  "icons/icon-16.png",
+ "32":  "icons/icon-32.png",
+ "128":  "icons/icon-128.png"
+},
+"default_locale": "en",
+
+     "action" : {
+         "default_icon" :  "icons/icon-128.png",
+         "default_title" : "Bounce Ball Unblocked",
+         "default_popup":  "load.html"
+    },
+
+     "background": {
+         "service_worker": "background.js"
+    }
+}
