@@ -1,0 +1,11 @@
+body {
+    background: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Poppins_Bold";
+    font-weight: 900;
+    src: url(./assets/fonts/Poppins-Bold.ttf) format('truetype');
+}
