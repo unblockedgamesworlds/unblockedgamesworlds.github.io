@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css.css" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <title>Game Cat</title>
+    <style type="text/css">
+        a {
+            color: #4f5610;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+        a:focus {
+            outline: none
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        #catch-the-cat {
+            width: 600px;
+            height: 501px;
+        }
+        .header{
+            min-height: 50px;
+            background: linear-gradient(to right, #f5f5f5, #f5f5f5);
+            border-bottom: 1px solid #f5f5f5;        }
+        h3{
+            font-family: 'Roboto', sans-serif;
+
+            font-size: 22px;
+            color: #555555;
+            cursor: default;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+<div class=" ">
+    <h1>Catch Cat If You Can</h1>
+</div>
+<script src="src/phaser.min.js"></script>
+<script src="src/cat.js"></script>
+<div id="cat"></div>
+<script src="src/run.js"></script>
+
+
+</body>
+</html>
