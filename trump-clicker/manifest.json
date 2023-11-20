@@ -1,0 +1,42 @@
+{
+ 
+
+    "manifest_version": 3,
+    "name": "Trump Clicker Unblocked",
+      "homepage_url": "https://monkeymart.org",
+    "version": "1.0.1",
+     "action": {
+        "default_icon": {
+             "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+        },
+        "default_title": "Click to open the popup"
+ 
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "offline_enabled": true,
+ 
+    "description": "Tap on Donald Trump then buy upgrades that will help him win the election. Very funny!",
+    "icons": {
+        "512": "icons/icon-512.png",
+         "256": "icons/icon-256.png",
+         "128": "icons/icon-128.png",
+         "64": "icons/icon-64.png",
+         "48": "icons/icon-48.png",
+         "32": "icons/icon-32.png",
+         "16": "icons/icon-16.png" 
+    },
+    "options_page": "index.html",
+	
+    "homepage_url": "https://drunk-game.com"
+
+}
+

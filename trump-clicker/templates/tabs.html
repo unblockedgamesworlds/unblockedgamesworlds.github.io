@@ -1,0 +1,16 @@
+<ion-tabs class="tabs-icon-top tabs-color-active-assertive">
+
+  <ion-tab title="Trump" icon="ion-person" href="#/tab/trump">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Upgrades" icon="ion-erlenmeyer-flask" href="#/tab/upgrades"  ng-controller="checkupgrade" badge="settings.upgradebadge" badge-style="badge-assertive">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
+
+ <ion-tab title="Election" icon="ion-flag" href="#/tab/election"  ng-controller="checkupgrade" badge="settings.statebadge" badge-style="badge-assertive">
+    <ion-nav-view name="tab-election"></ion-nav-view>
+  </ion-tab>
+
+
+</ion-tabs>

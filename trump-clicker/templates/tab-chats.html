@@ -1,0 +1,86 @@
+<ion-view view-title="Upgrades">
+<ion-content>
+
+<ul class="list">
+    <li class="item" style="text-align:center">
+      Money: <span style="color:green">$<span ng-bind="settings.money|number"></span></span> <span style="font-size:0.8em">(${{settings.click|number}} per click, ${{settings.clicksper|number}} per second)</span>
+    </li>
+    <li class="item" style="text-align:center">
+      Votes: <span ng-bind="settings.votes|number" style="color:red"></span> <span style="font-size:0.8em">({{settings.votesper|number}} votes per second)</span>
+    </li>
+</ul>
+
+
+<div class="card" ng-click="upgadeclick()" ng-class="{'disabled':settings.money<settings.upgrades.clicker.cost}">
+<div class="item item-divider">
+Click Upgrade
+</div>
+<div class="item item-text-wrap">
+Make more money with each click
+</div>
+<div class="item item-divider">
+Level {{settings.upgrades.clicker.bought+1|number}}: <span style="color:green">${{settings.upgrades.clicker.cost|number}}</span></span>
+</div>
+</div>
+
+<div class="card" ng-click="buyvotes('social')" ng-class="{'disabled':settings.money<settings.upgrades.social.cost}">
+<div class="item item-divider">
+Social Media
+</div>
+<div class="item item-text-wrap">
+Reach more voters with social media
+</div>
+<div class="item item-divider">
+Level {{settings.upgrades.social.bought+1|number}}: <span style="color:green">${{settings.upgrades.social.cost|number}}</span></span>
+</div>
+</div>
+
+<div class="card" ng-click="buyvotes('ads')" ng-class="{'disabled':settings.money<settings.upgrades.ads.cost}">
+<div class="item item-divider">
+Political Ads
+</div>
+<div class="item item-text-wrap">
+Run ads on TV and radio
+</div>
+<div class="item item-divider">
+Level {{settings.upgrades.ads.bought+1|number}}: <span style="color:green">${{settings.upgrades.ads.cost|number}}</span></span>
+</div>
+</div>
+
+<div class="card" ng-click="buyvotes('smear')" ng-class="{'disabled':settings.money<settings.upgrades.smear.cost}">
+<div class="item item-divider">
+Smear Campaign
+</div>
+<div class="item item-text-wrap">
+Run a smear campaign against your opponents
+</div>
+<div class="item item-divider">
+Level {{settings.upgrades.smear.bought+1|number}}: <span style="color:green">${{settings.upgrades.smear.cost|number}}</span></span>
+</div>
+</div>
+
+<div class="card" ng-click="buyvotes('media')" ng-class="{'disabled':settings.money<settings.upgrades.media.cost}">
+<div class="item item-divider">
+Media Coverage
+</div>
+<div class="item item-text-wrap">
+Increase your media coverage to increase your supporters
+</div>
+<div class="item item-divider">
+Level {{settings.upgrades.media.bought+1|number}}: <span style="color:green">${{settings.upgrades.media.cost|number}}</span></span>
+</div>
+</div>
+
+<div class="card" ng-click="buyvotes('endorse')" ng-class="{'disabled':settings.money<settings.upgrades.endorse.cost}">
+<div class="item item-divider">
+Endorsements
+</div>
+<div class="item item-text-wrap">
+Buy endorsements from famous and respected republicans
+</div>
+<div class="item item-divider">
+Level {{settings.upgrades.endorse.bought+1|number}}: <span style="color:green">${{settings.upgrades.endorse.cost|number}}</span></span>
+</div>
+</div>
+</ion-content>
+</ion-view>

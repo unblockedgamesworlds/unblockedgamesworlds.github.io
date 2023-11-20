@@ -1,0 +1,26 @@
+<ion-view view-title="Election">
+  <ion-content>
+<ul class="list">
+    <li class="item" style="text-align:center">
+      Money: <span style="color:green">$<span ng-bind="settings.money|number"></span></span> <span style="font-size:0.8em">(${{settings.click|number}} per click, ${{settings.clicksper|number}} per second)</span>
+    </li>
+    <li class="item" style="text-align:center">
+      Votes: <span ng-bind="settings.votes|number" style="color:red"></span> <span style="font-size:0.8em">({{settings.votesper|number}} votes per second)</span>
+    </li>
+</ul>
+
+<div class="card" ng-repeat="(key,state) in settings.states" ng-click="buyelection(key)" ng-class="{disabled:state.bought==0 && state.cost>settings.votes}">
+<div class="item item-divider">
+{{state.name}} Election
+</div>
+<div class="item item-text-wrap" ng-if="state.bought==0">
+<span style="color:red">{{state.cost|number}} votes</span> needed to win election
+</div>
+<div class="item item-text-wrap" ng-if="state.bought==1">
+You won this election!
+</div>
+</div>
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,15 @@
+<ion-view view-title="Trump Clicker">
+<button ng-click="resetg()" ng-show="settings.wongame" class="resetbtn">Reset</button>
+<div style="position:absolute;top:50%;left:50%;margin:-239px 0 0 -165px;text-align:center">
+<span class="trumpclicks">{{settings.trumpclicks|number}} clicks</span>
+<button ng-click="clicky()" class="trump" trumpclicked>Trump</button>
+</div>
+<ul class="list" style="position:absolute;bottom:48px;left:0;right:0">
+<li class="item" style="text-align:center">
+Money: <span style="color:green">$<span ng-bind="settings.money|number"></span></span> <span style="font-size:0.8em">(${{settings.click|number}} per click, ${{settings.clicksper|number}} per second)</span>
+</li>
+<li class="item" style="text-align:center">
+Votes: <span ng-bind="settings.votes|number" style="color:red"></span> <span style="font-size:0.8em">({{settings.votesper|number}} votes per second)</span>
+</li>
+</ul>
+</ion-view>
