@@ -1,0 +1,41 @@
+{
+	"features": {
+		"highscores": 1,
+		"credits": 0,
+		"leaderboard": 0,
+		"multiplayer": 0,
+		"rewarded": 0,
+		"standalone": 1,
+		"multiplayer_local": 1,
+		"audio": 1
+	},
+	"game_i18n": {
+		"default": {
+			"credits.png": "fg_i18n/en/images/credits-sheet0.png",
+			"creditsURL": "https://famobi.com"
+		},
+		"A-O7SKJ.default": {
+			"creditsURL": "none"
+		},
+		"fr": {
+			"credits.png": "fg_i18n/{lang}/images/credits-sheet0.png"
+		}
+	},
+	"aid": "A1234-5",
+	"logging": true,
+	"api": "famobi",
+	"name": "Google GameSnacks",
+	"more_games_url": "",
+	"more_games_button_image": "logo",
+	"show_splash": false,
+	"splash_duration": 9999,
+	"branch": "master",
+	"gameParams": {
+		"ad_type": "off"
+	},
+	"menuless": true,
+	"disable_console": false,
+	"includeJS": ["//embed.gamesnacks.com/assets/js/gamesnacks.js"],
+	"version": "5c540970",
+	"supportedLanguages": ["en", "fr"]
+}
