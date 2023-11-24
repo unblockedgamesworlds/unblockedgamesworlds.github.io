@@ -1,0 +1,15 @@
+{
+    "level": "Level",
+    "tutorial": "Hold to dig",
+
+    "try_again": "Try Again!",
+    "best": "Best",
+    "level_passed": "Level Passed",
+    "revive_text": "REVIVE",
+
+    "no_thanks": "No Thanks",
+    "fb_invite": "Invite friends",
+    "fb_share": "Share with friends",
+    
+    "tap_to_restart": "TAP TO RESTART"
+}
