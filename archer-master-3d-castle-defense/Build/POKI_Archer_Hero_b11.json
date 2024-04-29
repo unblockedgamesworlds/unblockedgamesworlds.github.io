@@ -1,0 +1,13 @@
+{
+"companyName": "CyberGoldfinch",
+"productName": "Archer Master 3D: Castle Defense",
+"dataUrl": "POKI_Archer_Hero_b11.data.unityweb?v=1",
+"wasmCodeUrl": "POKI_Archer_Hero_b11.wasm.code.unityweb?v=1",
+"wasmFrameworkUrl": "POKI_Archer_Hero_b11.wasm.framework.unityweb?v=1",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "POKI_Archer_Hero_b11.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
