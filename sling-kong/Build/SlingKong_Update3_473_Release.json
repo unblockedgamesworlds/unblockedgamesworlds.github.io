@@ -1,0 +1,16 @@
+{
+"companyName": "Protostar",
+"productName": "Sling Kong",
+"productVersion": "3.16.1",
+"dataUrl": "SlingKong_Update3_473_Release.data.unityweb",
+"wasmCodeUrl": "SlingKong_Update3_473_Release.wasm.code.unityweb",
+"wasmFrameworkUrl": "SlingKong_Update3_473_Release.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.9f1"
+}
