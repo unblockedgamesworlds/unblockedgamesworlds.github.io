@@ -1,0 +1,13 @@
+{
+"companyName": "Michael Eichler",
+"productName": "Ping Pong Chaos",
+"dataUrl": "PingPongChaosPoki.data.unityweb",
+"asmCodeUrl": "PingPongChaosPoki.asm.code.unityweb",
+"asmMemoryUrl": "PingPongChaosPoki.asm.memory.unityweb",
+"asmFrameworkUrl": "PingPongChaosPoki.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1F6FBF"
+}
